@@ -6,12 +6,14 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Events from './pages/Events';
 import News from './pages/News';
+import NavTabs from './NavTabs';
 
 
 function App() {
   return (
     <Router>
       <div>
+        <NavTabs />
         <Route path='/' exact component={Home} />
         <Route path='/about' exact component={About} />
         <Route path='/contact' exact component={Contact} />
