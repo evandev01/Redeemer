@@ -6,7 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Events from './pages/Events';
 import News from './pages/News';
-import NavTabs from './NavTabs';
+import NavTabs from './components/NavTabs';
 
 
 function App() {
