@@ -1,0 +1,11 @@
+
+// Change classname for header background state
+
+document.querySelector("input").addEventListener("click", function(){
+  document.querySelector("h1").classList.remove("normal");
+  document.querySelector("h1").classList.add("special");  
+});
+.normal { background-color:purple; }
+.special { background-color:yellow; }
+<h1 class="normal">Just some text</h1>
+<input type="button" value="Click to change style">

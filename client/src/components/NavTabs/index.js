@@ -5,9 +5,9 @@ function NavTabs() {
     return (
         <div>
             <Container>
-                <Nav id='navBar' className='justify-content-center' activeKey='/home'>
+                <Nav id='navBar' className='justify-content-center' activeKey='/'>
                     <Nav.Item>
-                        <Nav.Link href='/home'>Home</Nav.Link>
+                        <Nav.Link href='/'>Home</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link href='/about'>About</Nav.Link>
