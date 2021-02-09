@@ -1,10 +1,6 @@
-/* .head{
-    background-image: url('./assets/image01.jpg');
+#header {
+    height: auto;
+    width: 100%;
+    max-height: 275px;
+    max-width: 100%;
 }
-.head-about{
-    background-image: url('./assets/image02.jpg');
-}
-.head-contact{
-    background-image: url('./assets/image03.jpg');
-} */
-

@@ -8,9 +8,9 @@ import Events from './pages/Events';
 import News from './pages/News';
 import NavTabs from './components/NavTabs';
 import Header from './components/Header';
-import image01 from './assets/image01.jpg';
-import image02 from './assets/image02.jpg';
-import image03 from './assets/image03.jpg';
+import image01 from './assets/header-assets/image01.jpg';
+import image02 from './assets/header-assets/image02.jpg';
+import image03 from './assets/header-assets/image03.jpg';
 
 
 function App() {
