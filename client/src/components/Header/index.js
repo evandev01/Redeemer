@@ -1,22 +1,15 @@
 import React from 'react';
-import { Image } from 'react-bootstrap';
+import { Col, Container, Image, Row } from 'react-bootstrap';
+import './style.css'
 
 
 function Header(props) {
-
-    //  If window.location === whatever , change classname attribute to whatever for background
-
-    // OR //
-
-    //  In App.js, if window.location === whatever, 
-    //  setBackground state to url of asset and then src={backgroundState}
-
-    // or src= {()=> setSRC('url of image')}
-
     return (
-        <div>
-            <Image src={props.src} />
-        </div>
+        <header>
+            <Container>
+                        <Image id='header' alt='church photo' src={props.src} />
+            </Container>
+        </header>
     )
 };
 

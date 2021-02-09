@@ -1,11 +1,12 @@
+5417 IN-10, De Motte, IN 46310
 
-// Change classname for header background state
+Service times:
+Sunday 10:00am
+Wednesday 7:00pm
 
-document.querySelector("input").addEventListener("click", function(){
-  document.querySelector("h1").classList.remove("normal");
-  document.querySelector("h1").classList.add("special");  
-});
-.normal { background-color:purple; }
-.special { background-color:yellow; }
-<h1 class="normal">Just some text</h1>
-<input type="button" value="Click to change style">
+Mission statement: 
+At Redeemer Church, we seek to bring together the God's mission and the mission of the Church by making disciples who delight in, display, and declare the glorious gospel of Jesus Christ!
+
+Contact:
+(219) 345-5725
+preacher4grace@yahoo.com
