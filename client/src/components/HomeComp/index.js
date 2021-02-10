@@ -1,28 +1,38 @@
 import React from 'react';
-import {Col, Row, Container} from 'react-bootstrap';
+import { Col, Row, Container, Image } from 'react-bootstrap';
+import servImg from '../../assets/bkgd-assets/serviceTimes_graphic.jpg'
+// import bkgdImg from '../../assets/bkgd-assets/home-bkgd'
 
-function HomeComp(){
-    return(
+function HomeComp() {
+    return (
         <div>
             <Container>
                 <Row>
+                    <Col />
                     <Col>
-                    Service Times<br></br>Address
+                        <div>
+                            <h4 id='broadcast'>Live Sermon Broadcast:
+                            </h4>
+                        </div>
+                    </Col>
+                    <Col />
+                </Row>
+                <Row>
+                    <Col />
+                    <Col>
+                        <iframe id='stream' height='515' width='760' src="https://www.youtube.com/embed/7MKSynH-NUw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen">
+                        </iframe>
+                    </Col>
+                    <Col />
+                </Row>
+                <Row>
+                    <Col>
+                        Important Updates
                     </Col>
                 </Row>
                 <Row>
                     <Col>
-                    <iframe width="760" height="515" src="https://www.youtube.com/embed/7MKSynH-NUw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen">
-                    </iframe></Col>
-                </Row>
-                <Row>
-                    <Col>
-                    Important Updates
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                    Upcoming Event / Misc 
+                        Upcoming Event / Misc
                     </Col>
                 </Row>
             </Container>

@@ -3,7 +3,7 @@ import HomeComp from '../components/HomeComp';
 
 function Home() {
     return (
-        <div>
+        <div id='home-body'>
             <HomeComp />
         </div>
     )
