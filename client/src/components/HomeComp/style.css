@@ -1,3 +1,9 @@
+body{ 
+    background-image: url('./assets/home-bkgd.jpg');
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+}
 #stream{
     margin-top: 1%;
     align-items: center;
@@ -10,10 +16,4 @@
     width: 100%;
     max-height: 300px;
     max-width: 100%;
-}
-#home-body { 
-    background-image: url('./assets/home-bkgd.jpg');
-    background-size: cover;
-    height: 100%;
-    background-repeat: no-repeat;
 }

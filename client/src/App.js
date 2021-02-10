@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import './App.css';
+import {Image} from 'react-bootstrap';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
@@ -8,10 +10,13 @@ import Events from './pages/Events';
 import News from './pages/News';
 import NavTabs from './components/NavTabs';
 import Header from './components/Header';
+// Header backgrounds
 import image01 from './assets/header-assets/image01_edit.jpg';
 import image02 from './assets/header-assets/image02.jpg';
 import image03 from './assets/header-assets/image03.jpg';
 
+// Main backgrounds
+import homeBkgd from './assets/bkgd-assets/home-bkgd.jpg';
 
 function App() {
   const [srcState, setSrcState] = useState();
