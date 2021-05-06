@@ -1,16 +1,4 @@
-#nav-bar{
-    backdrop-filter: blur(60px);
-    background-color: rgba(255, 255, 255, 0.377);
+#navBar{
+  font-size: 12px;
 }
-.nav-link{
-    color: rgb(55, 43, 226);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: large;
-}
-.nav-link:current{
-    color: white;
-}
-#nav-item{
-     border: black 2px groove;
-}
-
+/* #nav-logo{} */
