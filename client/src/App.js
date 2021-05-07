@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Events from './pages/Events';
-import News from './pages/News';
-import Give from './pages/Give';
-import WatchLive from './components/WatchLive';
-import NavTabs from './components/NavTabs/Navtabs';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Connect from './components/Connect/Connect';
+import Events from './components/Events/Events';
+import News from './components/News/News';
+import Giving from './components/Giving/Giving';
+import WatchLive from './components/WatchLive/WatchLive';
+import NavTabs from './components/NavTabs';
 import Header from './components/Header';
-import Logo from './components/Logo';
+import Staff from './components/Staff/Staff';
 
 
 function App() {
@@ -38,14 +38,15 @@ function App() {
     <Router>
       <div>
         <NavTabs />
-        <Header />
+        {/* <Header /> */}
         <Route path='/' exact component={Home} />
         <Route path='/about' exact component={About} />
-        <Route path='/contact' exact component={Contact} />
+        <Route path='/connect' exact component={Connect} />
         <Route path='/events' exact component={Events} />
         <Route path='/watchlive' exact component={WatchLive} />
         <Route path='/news' exact component={News} />
-        <Route path='/Give' exact component={Give} />
+        <Route path='/giving' exact component={Giving} />
+        <Route path='/staff' exact component={Staff} />
       </div>
     </Router>
   )

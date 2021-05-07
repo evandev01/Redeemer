@@ -1,0 +1,31 @@
+body{
+  text-align: center;
+}
+
+#pastor-wife{
+  height: 400px;
+  width: 300px;
+  margin-top: 40px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+#pastor{
+  margin-bottom: 20px;
+}
+
+#photo{
+  height: 267px;
+  width: 200px;
+  /* margin-left: 20%;
+  margin-right: 20%; */
+}
+
+h4{
+  margin-top: 20px;
+}
+
+body{
+  text-align: center;
+}
