@@ -11,6 +11,17 @@ const About = () => {
           <Header id='header' />
         </Row>
         <Row className='justify-content-md-center'>
+          <h6 id='vision'>Mission statement:</h6>
+        </Row>
+        <Row className='justify-content-md-center'>
+          <p>
+            At Redeemer Church, we seek to bring together the God's mission and
+            the mission of the Church by making disciples who delight in,
+            display, and declare the glorious gospel of Jesus Christ!
+          </p>
+        </Row>
+
+        <Row className='justify-content-md-center'>
           <h6 id='vision'>
             Our Vision: Treasuring Christ and Proclaiming His Worth
           </h6>
