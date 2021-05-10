@@ -8,10 +8,9 @@ import Events from './components/Events/Events';
 import News from './components/News/News';
 import Giving from './components/Giving/Giving';
 import WatchLive from './components/WatchLive/WatchLive';
-import NavTabs from './components/NavTabs';
+import NavTabs from './components/NavTabs/NavTabs';
 import Header from './components/Header';
 import Staff from './components/Staff/Staff';
-
 
 function App() {
   // const [srcState, setSrcState] = useState();
@@ -44,21 +43,14 @@ function App() {
         <Route path='/connect' exact component={Connect} />
         <Route path='/events' exact component={Events} />
         <Route path='/watchlive' exact component={WatchLive} />
-        <Route path='/news' exact component={News} />
         <Route path='/giving' exact component={Giving} />
         <Route path='/staff' exact component={Staff} />
       </div>
     </Router>
-  )
-};
+  );
+}
 
 export default App;
-
-
-
-
-
-
 
 // import headerImage from './assets/header-assets/image01_edit.jpg'
 // import image01 from './assets/header-assets/image01_edit.jpg';

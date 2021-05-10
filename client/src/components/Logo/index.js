@@ -6,14 +6,14 @@
 //   return (
 //     <div>
 //       <Col>
-                                
+
 //         <Image
 //         alt={'Redeemer Church Logo'}
 //         id='nav-logo'
-//         src={logo} 
+//         src={logo}
 //         />
-        
-//       </Col>      
+
+//       </Col>
 //     </div>
 //   )
 // }
