@@ -6,7 +6,7 @@ const Giving = () => {
     <Fragment>
       <Header />
     </Fragment>
-  )
-}
+  );
+};
 
-export default Giving
+export default Giving;
