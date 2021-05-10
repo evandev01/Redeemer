@@ -1,10 +1,13 @@
 import React, { Fragment } from 'react';
+
+import { Container, Row } from 'react-bootstrap';
+
 import Header from '../Header';
 
 const Giving = () => {
   return (
     <Fragment>
-      <Header />
+      <Container></Container>
     </Fragment>
   );
 };
