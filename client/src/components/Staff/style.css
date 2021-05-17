@@ -1,31 +1,39 @@
-body {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500;600;700&family=Titillium+Web:wght@400;600;700&display=swap');
 
-#pastor-wife {
-  height: 400px;
-  width: 300px;
-  margin-top: 40px;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+#staff {
+  margin-top: 1.5rem;
 }
-
-#pastor {
-  margin-bottom: 20px;
-}
-
 #photo {
   height: 267px;
   width: 200px;
-  /* margin-left: 20%;
-  margin-right: 20%; */
+  margin-top: 1rem;
 }
 
-h4 {
-  margin-top: 20px;
+/* #title {
+  text-decoration-line: underline;
+} */
+
+#staff-h5 {
+  font-family: 'Titillium Web', sans-serif;
+  margin-top: 2rem;
+  font-weight: 600;
+
+  /* text-decoration-line: underline; */
 }
 
-body {
-  text-align: center;
+#pastor {
+  text-indent: -1.5em !important;
+}
+
+#staff-h6 {
+  font-family: 'KoHo', sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-family: 'KoHo', sans-serif;
+}
+
+#bottom {
+  margin-bottom: 2rem;
 }
