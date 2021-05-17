@@ -1,13 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500;600;700&display=swap');
+
 #header {
   margin-top: 1rem;
 }
 
-#vision {
-  margin-top: 1rem;
+#para {
+  font-family: 'KoHo', sans-serif;
+  text-indent: 2em;
+  margin-left: 8rem;
+  margin-right: 8rem;
 }
 
-p {
-  text-align: left;
+#verse {
+  font-family: 'KoHo', sans-serif;
+  font-weight: 600;
   margin-left: 6rem;
   margin-right: 6rem;
+}
+
+#bottom {
+  margin-bottom: 2rem;
+}
+
+#about-h6 {
+  font-weight: 600;
+  font-family: 'KoHo', sans-serif;
 }

@@ -13,26 +13,6 @@ import Header from './components/Header';
 import Staff from './components/Staff/Staff';
 
 function App() {
-  // const [srcState, setSrcState] = useState();
-
-  // useEffect(() => {
-  //   handleHeader();
-  // }, []);
-
-  // function handleHeader() {
-  //   if (window.location.pathname === '/') {
-  //     setSrcState(image01)
-  //   } else if (window.location.pathname === '/about') {
-  //     setSrcState(image02)
-  //   } else if (window.location.pathname === '/contact') {
-  //     setSrcState(image03)
-  //   } else if (window.location.pathname === '/events') {
-  //     setSrcState(image01)
-  //   } else if (window.location.pathname === '/news') {
-  //     setSrcState(image02)
-  //   }
-  // };
-
   return (
     <Router>
       <div>
@@ -56,3 +36,23 @@ export default App;
 // import image01 from './assets/header-assets/image01_edit.jpg';
 // import image02 from './assets/header-assets/image02.jpg';
 // import image03 from './assets/header-assets/image03.jpg';
+
+// const [srcState, setSrcState] = useState();
+
+// useEffect(() => {
+//   handleHeader();
+// }, []);
+
+// function handleHeader() {
+//   if (window.location.pathname === '/') {
+//     setSrcState(image01)
+//   } else if (window.location.pathname === '/about') {
+//     setSrcState(image02)
+//   } else if (window.location.pathname === '/contact') {
+//     setSrcState(image03)
+//   } else if (window.location.pathname === '/events') {
+//     setSrcState(image01)
+//   } else if (window.location.pathname === '/news') {
+//     setSrcState(image02)
+//   }
+// };

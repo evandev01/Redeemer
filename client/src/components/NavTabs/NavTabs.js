@@ -30,9 +30,9 @@ const NavTabs = () => {
                     <Nav.Item>
                       <Nav.Link href='/watchlive'>WATCH LIVE</Nav.Link>
                     </Nav.Item>
-                    <Nav.Item>
+                    {/* <Nav.Item>
                       <Nav.Link href='/serve'>SERVE</Nav.Link>
-                    </Nav.Item>
+                    </Nav.Item> */}
                     <Nav.Item>
                       <Nav.Link href='/connect'>CONNECT</Nav.Link>
                     </Nav.Item>

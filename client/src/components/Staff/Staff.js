@@ -14,23 +14,69 @@ import { Fragment } from 'react';
 const Staff = () => {
   return (
     <Fragment>
-      <Container id='photos'>
+      <Container id='staff'>
         <Row className='justify-content-md-center'>
-          <Col md='auto' id='pastor'>
-            <Image
-              src={JoelAndNiki}
-              alt='Pastor Joel and Niki Gilbert'
-              id='pastor-wife'
-            />
-            <h4>Pastor Joel and Niki Gilbert</h4>
+          <Col md='auto'>
+            <h4 id='title' className='text-center'>
+              Our Servant Leaders
+            </h4>
           </Col>
         </Row>
 
         <Row className='justify-content-md-center'>
           <Col md='auto'>
-            <h4>Staff</h4>
+            <h5 id='staff-h5' className='text-center'>
+              Elders
+            </h5>
           </Col>
         </Row>
+
+        <Row className='justify-content-md-center'>
+          <Col md='auto'>
+            <Image
+              src={JoelAndNiki}
+              alt='Pastor Joel and Niki Gilbert'
+              id='photo'
+            />
+            <h6 id='pastor' className='text-left'>
+              Pastor Joel Gilbert and Niki Gilbert
+            </h6>
+          </Col>
+          <Col md='auto'>
+            <Image src={Bob} alt='Bob - Elder' id='photo' />
+            <h6 id='staff-h6' className='text-center'>
+              Pastor Bob Wheeler
+            </h6>
+          </Col>
+        </Row>
+
+        <Row className='justify-content-md-center'>
+          <Col md='auto'>
+            <h5 id='staff-h5' className='text-center'>
+              Deacons
+            </h5>
+          </Col>
+        </Row>
+
+        <Row className='justify-content-md-center'>
+          <Col md='auto'>
+            <Image src={Steve} alt='Steve - Elder' id='photo' />
+            <h6 id='staff-h6' className='text-center'>
+              Steve Renfrow
+            </h6>
+          </Col>
+          <Col md='auto'>
+            <Image
+              // src={Shane}
+              alt='Shane Felber'
+              id='photo'
+            />
+            <h6 id='staff-h6' className='text-center'>
+              Shane Felber
+            </h6>
+          </Col>
+        </Row>
+
         <Row className='justify-content-md-center'>
           <Col md='auto'>
             <Image
@@ -38,41 +84,34 @@ const Staff = () => {
               alt={'David Harris - Worship Leader'}
               id='photo'
             />
-            <h5>David Harris</h5>
-            <p>Worship Leader</p>
+            <h6 id='staff-h6' className='text-center'>
+              David Harris
+            </h6>
+            <p className='text-center'>(Worship Leader)</p>
           </Col>
+        </Row>
+
+        <Row className='justify-content-md-center'>
           <Col md='auto'>
             <Image
               src={Georgette}
               alt={'Georgette Aguilar - Church Treasurer'}
               id='photo'
             />
-            <h5>Georgette Aguilar</h5>
-            <p>Church Treasurer</p>
+            <h6 id='staff-h6' className='text-center'>
+              Georgette Aguilar
+            </h6>
+            <p className='text-center'>(Church Treasurer)</p>
           </Col>
           <Col md='auto'>
             <Image src={Lisa} alt={'Lisa - Volunteer'} id='photo' />
-            <h5>Lisa</h5>
-            <p>Volunteer Coordinator</p>
+            <h6 id='staff-h6' className='text-center'>
+              Lisa Brown
+            </h6>
+            <p className='text-center'>(Church Clerk)</p>
           </Col>
         </Row>
-
-        <Row className='justify-content-md-center'>
-          <Col md='auto'>
-            <h4>Elders</h4>
-          </Col>
-        </Row>
-
-        <Row className='justify-content-md-center'>
-          <Col md='auto'>
-            <Image src={Bob} alt={'Bob - Elder'} id='photo' />
-            <h5>Bob</h5>
-          </Col>
-          <Col md='auto'>
-            <Image src={Steve} alt={'Steve - Elder'} id='photo' />
-            <h5>Steve</h5>
-          </Col>
-        </Row>
+        <div id='bottom' />
       </Container>
     </Fragment>
   );
