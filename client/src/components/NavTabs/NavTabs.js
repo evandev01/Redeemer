@@ -11,7 +11,6 @@ const NavTabs = () => {
           <Col>
             <Image alt={'Redeemer Church Logo'} id='nav-logo' src={logo} />
           </Col>
-          {/* <Container> */}
           <div id='navBar'>
             <Col>
               <Navbar expand='md' className='justify-content-bottom'>
@@ -47,7 +46,6 @@ const NavTabs = () => {
               </Navbar>
             </Col>
           </div>
-          {/* </Container>   */}
         </Row>
       </Container>
     </div>

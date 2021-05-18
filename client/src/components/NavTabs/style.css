@@ -1,4 +1,8 @@
-#navBar{
-  font-size: 12px;
+#navbar-div {
+  border-bottom: 10px;
+  border-width: 10px;
 }
-/* #nav-logo{} */
+
+#navBar {
+  font-size: 14px;
+}
