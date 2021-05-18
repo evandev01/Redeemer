@@ -11,6 +11,7 @@ import WatchLive from './components/WatchLive/WatchLive';
 import NavTabs from './components/NavTabs/NavTabs';
 import Header from './components/Header';
 import Staff from './components/Staff/Staff';
+import './App.css';
 
 function App() {
   return (

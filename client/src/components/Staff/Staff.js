@@ -16,99 +16,82 @@ const Staff = () => {
     <Fragment>
       <Container id='staff'>
         <Row className='justify-content-md-center'>
-          <Col md='auto'>
-            <h4 id='title' className='text-center'>
-              Our Servant Leaders
-            </h4>
+          <Col xs={12} lg={12} className='text-center' md='auto'>
+            <h4 id='title'>Our Servant Leaders</h4>
           </Col>
         </Row>
 
         <Row className='justify-content-md-center'>
-          <Col md='auto'>
-            <h5 id='staff-h5' className='text-center'>
-              Elders
-            </h5>
+          <Col xs={12} lg={12} className='text-center' md='auto'>
+            <h5 id='staff-h5'>Elders</h5>
           </Col>
         </Row>
 
         <Row className='justify-content-md-center'>
-          <Col md='auto'>
+          <Col xs={6} lg={4} className='text-center' md='auto'>
             <Image
               src={JoelAndNiki}
               alt='Pastor Joel and Niki Gilbert'
               id='photo'
             />
-            <h6 id='pastor' className='text-left'>
-              Pastor Joel Gilbert and Niki Gilbert
+            <h6 md='auto' id='staff-h6'>
+              Pastor Joel Gilbert
             </h6>
           </Col>
-          <Col md='auto'>
+
+          <Col xs={6} lg={4} className='text-center' md='auto'>
             <Image src={Bob} alt='Bob - Elder' id='photo' />
-            <h6 id='staff-h6' className='text-center'>
-              Pastor Bob Wheeler
-            </h6>
+            <h6 id='staff-h6'>Pastor Bob Wheeler</h6>
           </Col>
         </Row>
 
         <Row className='justify-content-md-center'>
-          <Col md='auto'>
-            <h5 id='staff-h5' className='text-center'>
-              Deacons
-            </h5>
+          <Col xs={6} lg={4} className='text-center' md='auto'>
+            <h5 id='staff-h5'>Deacons</h5>
           </Col>
         </Row>
 
         <Row className='justify-content-md-center'>
-          <Col md='auto'>
+          <Col xs={6} lg={4} className='text-center' md='auto'>
             <Image src={Steve} alt='Steve - Elder' id='photo' />
-            <h6 id='staff-h6' className='text-center'>
-              Steve Renfrow
-            </h6>
+            <h6 id='staff-h6'>Steve Renfrow</h6>
           </Col>
-          <Col md='auto'>
-            <Image
-              // src={Shane}
-              alt='Shane Felber'
-              id='photo'
-            />
-            <h6 id='staff-h6' className='text-center'>
+
+          <Col xs={6} lg={4} className='text-center' md='auto'>
+            <Image src='' alt='Shane Felber' id='photo' />
+            <h6 md='auto' id='staff-h6'>
               Shane Felber
             </h6>
           </Col>
         </Row>
 
         <Row className='justify-content-md-center'>
-          <Col md='auto'>
+          <Col xs={12} lg={12} className='text-center' md='auto'>
             <Image
               src={David}
               alt={'David Harris - Worship Leader'}
               id='photo'
             />
-            <h6 id='staff-h6' className='text-center'>
-              David Harris
-            </h6>
-            <p className='text-center'>(Worship Leader)</p>
+            <h6 id='staff-h6'>David Harris</h6>
+            <p id='staff-position'>(Worship Leader)</p>
           </Col>
         </Row>
 
         <Row className='justify-content-md-center'>
-          <Col md='auto'>
+          <Col xs={6} lg={4} className='text-center' md='auto'>
             <Image
               src={Georgette}
               alt={'Georgette Aguilar - Church Treasurer'}
               id='photo'
             />
-            <h6 id='staff-h6' className='text-center'>
-              Georgette Aguilar
-            </h6>
-            <p className='text-center'>(Church Treasurer)</p>
+            <h6 id='staff-h6'>Georgette Aguilar</h6>
+            <p id='staff-position'>(Church Treasurer)</p>
           </Col>
-          <Col md='auto'>
+
+          <Col xs={6} lg={4} className='text-center' md='auto'>
             <Image src={Lisa} alt={'Lisa - Volunteer'} id='photo' />
-            <h6 id='staff-h6' className='text-center'>
-              Lisa Brown
-            </h6>
-            <p className='text-center'>(Church Clerk)</p>
+            <h6 id='staff-h6'>Lisa Brown</h6>
+            <p id='staff-position'>(Church Clerk)</p>
           </Col>
         </Row>
         <div id='bottom' />

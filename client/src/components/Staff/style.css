@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@500;600;700&family=Titillium+Web:wght@400;600;700&display=swap');
-
 #staff {
   margin-top: 1.5rem;
 }
@@ -9,20 +7,16 @@
   margin-top: 1rem;
 }
 
-/* #title {
-  text-decoration-line: underline;
-} */
+#title {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 500;
+  margin-top: 2rem;
+}
 
 #staff-h5 {
   font-family: 'Titillium Web', sans-serif;
   margin-top: 2rem;
   font-weight: 600;
-
-  /* text-decoration-line: underline; */
-}
-
-#pastor {
-  text-indent: -1.5em !important;
 }
 
 #staff-h6 {
@@ -30,8 +24,9 @@
   font-weight: 600;
 }
 
-p {
+#staff-position {
   font-family: 'KoHo', sans-serif;
+  font-weight: 500;
 }
 
 #bottom {
