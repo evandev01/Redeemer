@@ -1,0 +1,73 @@
+5417 IN-10, De Motte, IN 46310
+
+Service times:
+Sunday 10:00am
+Wednesday 7:00pm
+
+Mission statement: 
+At Redeemer Church, we seek to bring together the God's mission and the mission of the Church by making disciples who delight in, display, and declare the glorious gospel of Jesus Christ!
+
+Address:
+5417 IN-10
+De Motte, IN 46310
+
+Contact:
+(219) 345-5725
+redeemerchurch.life@gmail.com
+
+ToDo:
+
+(x) Create YouTube channel for Redeemer
+(x) Create BYG for Events page
+(x) Write church about
+(x) Complete the Connect page
+(x) PayPal setup for Giving page
+  // FORM TO DONATE
+        <Row>
+          https://www.paypal.com/donate?business=8LQHMK6UJS5BY&currency_code=USD
+        </Row>
+        <Row>
+          <form
+            action='https://www.paypal.com/donate'
+            method='post'
+            target='_top'
+          >
+            <input type='hidden' name='business' value='8LQHMK6UJS5BY' />
+            <input type='hidden' name='currency_code' value='USD' />
+            <input
+              type='image'
+              src='https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif'
+              border='0'
+              name='submit'
+              title='PayPal - The safer, easier way to pay online!'
+              alt='Donate with PayPal button'
+            />
+            <img
+              alt=''
+              border='0'
+              src='https://www.paypal.com/en_US/i/scr/pixel.gif'
+              width='1'
+              height='1'
+            />
+          </form>
+        </Row>
+
+  // LINK TO DONATE
+  https://www.paypal.com/donate?business=8LQHMK6UJS5BY&currency_code=USD
+
+(x) Questions for Joel about him for about page
+  a) What are your credentials?
+  b) When did you start preaching? / History?
+  c) When did you become head or senior pastor at Redeemer Church?
+  d) What are your goals?
+  e) Any additional information?
+  f) Other deacons/ elders? Last names?
+
+1) Figure out connect page
+  a) Custom email?
+    i. Cost for custom email through Google - ( $12 / month )
+  b) Contact page?
+    i. Cost for Mailtrap paid email
+    ( $9.99 / month ) - ( 5000 emails / month ) ( 100 forwarded emails / month )
+
+2) Create graphics for Home page
