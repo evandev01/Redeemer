@@ -1,8 +1,12 @@
 #content {
-  /* text-align: left; */
   margin-top: 2rem;
 }
 
-/* p {
-  margin-left: 2rem;
-} */
+#feel-free {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 500;
+}
+
+#contact-info {
+  font-family: 'KoHo', sans-serif;
+}

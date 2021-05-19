@@ -11,13 +11,13 @@ const Connect = () => {
       {/* <Header /> */}
       <Container id='content'>
         <Row className='justify-content-md-center'>
-          <h6>
+          <h6 id='feel-free'>
             Feel free to contact us by email or phone for prayer requests and
             more information
           </h6>
         </Row>
         <Row className='justify-content-md-center'>
-          <p>
+          <p id='contact-info'>
             <br />
             Address:
             <br />
