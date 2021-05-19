@@ -1,21 +1,45 @@
-#BYG {
-  width: 200px;
-  height: 272px;
-  margin-bottom: 2rem;
+#events-body {
   margin-top: 2rem;
 }
 
-#byg-desc {
-  font-size: 16px;
-  text-indent: 1.5em;
+#home-border {
+  border-top: 1px solid black;
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-#study-title {
-  font-weight: 700;
-  text-decoration-line: underline;
+#byg-events {
+  width: 700px;
+  height: auto;
+}
+@media only screen and (max-width: 992px) {
+  #byg-events {
+    width: 500px;
+    height: auto;
+  }
 }
 
-#byg-content {
-  margin-top: 30px;
+@media only screen and (max-width: 768px) {
+  #byg-events {
+    width: 300px;
+    height: auto;
+  }
+}
+
+#watch-live-events {
+  width: 700px;
+  height: auto;
+}
+@media only screen and (max-width: 992px) {
+  #watch-live-events {
+    width: 500px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #watch-live-events {
+    width: 300px;
+    height: auto;
+  }
 }

@@ -3,7 +3,7 @@ import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import './style.css';
 
-import JoelAndNiki from '../../assets/photos/IMG_2487.jpeg';
+import Joel from '../../assets/photos/IMG_2488.jpeg';
 import Georgette from '../../assets/photos/IMG_2493.jpeg';
 import Lisa from '../../assets/photos/IMG_2499.jpeg';
 import Steve from '../../assets/photos/IMG_2479.jpeg';
@@ -29,11 +29,7 @@ const Staff = () => {
 
         <Row className='justify-content-md-center'>
           <Col xs={6} lg={4} className='text-center' md='auto'>
-            <Image
-              src={JoelAndNiki}
-              alt='Pastor Joel and Niki Gilbert'
-              id='photo'
-            />
+            <Image src={Joel} alt='Pastor Joel and Niki Gilbert' id='photo' />
             <h6 md='auto' id='staff-h6'>
               Pastor Joel Gilbert
             </h6>

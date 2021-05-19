@@ -6,15 +6,5 @@
   border-top: 2px groove rgba(0, 0, 0, 0.39);
   border-right: 4px groove rgba(0, 0, 0, 0.39);
   border-left: 4px groove rgba(0, 0, 0, 0.39);
-  margin-bottom: 1.5rem;
-}
-#logo {
-  height: auto;
-  width: 100%;
-  max-height: 300px;
-  max-width: 100%;
-  border-top: 2px groove rgba(0, 0, 0, 0.39);
-  border-right: 4px groove rgba(0, 0, 0, 0.39);
-  border-left: 4px groove rgba(0, 0, 0, 0.39);
-  border-bottom: 2px groove rgba(0, 0, 0, 0.39);
+  /* margin-bottom: 0.5rem; */
 }
