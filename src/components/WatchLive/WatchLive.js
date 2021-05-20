@@ -10,19 +10,17 @@ const WatchLive = () => {
 
   return (
     <Fragment>
-      <Container id='stream'>
-        <Row className='justify-content-md-center'>
-          <iframe
-            id='player'
-            // width='560'
-            // height='315'
-            src='https://www.youtube.com/embed/5HUAL36GI-M'
-            title='YouTube video player'
-            frameborder='0'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-            allowfullscreen
-          ></iframe>
-        </Row>
+      <Container id='stream' className='justify-content-md-center'>
+        <iframe
+          id='player'
+          // width='2000'
+          // height='1125'
+          src='https://www.youtube.com/embed/5HUAL36GI-M'
+          title='YouTube video player'
+          frameborder='0'
+          allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+          allowfullscreen
+        ></iframe>
       </Container>
     </Fragment>
   );
