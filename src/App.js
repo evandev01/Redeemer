@@ -5,7 +5,6 @@ import Home from './components/Home/Home';
 import About from './components/About/About';
 import Connect from './components/Connect/Connect';
 import Events from './components/Events/Events';
-import News from './components/News/News';
 import Giving from './components/Giving/Giving';
 import WatchLive from './components/WatchLive/WatchLive';
 import NavTabs from './components/NavTabs/NavTabs';

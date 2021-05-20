@@ -9,24 +9,26 @@ import WatchLive from '../../assets/graphics/watch-live-events@2x.jpg';
 
 const Events = () => {
   return (
-    <Container id='events-body'>
-      <Row className='justify-content-md-center'>
-        <Image
-          id='byg-events'
-          src={BYG_events}
-          alt='Behold Your God Bible study'
-        />
-      </Row>
-      <Row id='home-border' />
-      <Row className='justify-content-md-center'>
-        <Image
-          id='watch-live-events'
-          src={WatchLive}
-          alt='Watch live sermons'
-        />
-      </Row>
-      <Row id='home-border' />
-    </Container>
+    <Fragment>
+      <Container id='events-body'>
+        <Row className='justify-content-md-center'>
+          <Image
+            id='byg-events'
+            src={BYG_events}
+            alt='Behold Your God Bible study'
+          />
+        </Row>
+        <Row id='home-border' />
+        <Row className='justify-content-md-center'>
+          <Image
+            id='watch-live-events'
+            src={WatchLive}
+            alt='Watch live sermons'
+          />
+        </Row>
+        <Row id='home-border' />
+      </Container>
+    </Fragment>
   );
 };
 

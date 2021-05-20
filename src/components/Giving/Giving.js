@@ -2,7 +2,6 @@ import React, { Fragment } from 'react';
 
 import { Container, Row } from 'react-bootstrap';
 import './style.css';
-
 import Header from '../Header';
 
 const Giving = () => {

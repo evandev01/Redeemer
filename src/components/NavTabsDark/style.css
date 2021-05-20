@@ -10,15 +10,11 @@
 
 #navbar {
   margin-right: 1rem;
-}
-
-/* .dark-nav {
   background-color: black;
   color: white !important;
-  font-size: 12px;
-} */
+}
 
-/* #nav-container {
+#nav-container {
   background-color: black;
   color: white !important;
 }
@@ -26,4 +22,4 @@
 .nav-link {
   color: white !important;
   font-size: 12px;
-} */
+}
