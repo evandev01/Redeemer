@@ -1,27 +1,27 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect, useState } from 'react';
 import { Container, Row, Col, Jumbotron } from 'react-bootstrap';
 import './style.css';
 
 const WatchLive = () => {
+  // useEffect(() => {
+  //   document.body.style.setProperty({ backgroundColor: 'black' });
+  // }, []);
+  // const [isDark, setIsDark] = useState(false);
+
   return (
     <Fragment>
       <Container id='stream'>
-        <Row>
-          <Col>
-            <Jumbotron id='stream'>
-              {/* <h6 id='coming-soon'>Live Stream</h6> */}
-              <iframe
-                id='player'
-                width='560'
-                height='315'
-                src='https://www.youtube.com/embed/5HUAL36GI-M'
-                title='YouTube video player'
-                frameborder='0'
-                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-                allowfullscreen
-              ></iframe>
-            </Jumbotron>
-          </Col>
+        <Row className='justify-content-md-center'>
+          <iframe
+            id='player'
+            // width='560'
+            // height='315'
+            src='https://www.youtube.com/embed/5HUAL36GI-M'
+            title='YouTube video player'
+            frameborder='0'
+            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+            allowfullscreen
+          ></iframe>
         </Row>
       </Container>
     </Fragment>

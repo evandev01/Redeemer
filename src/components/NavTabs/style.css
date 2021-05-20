@@ -1,3 +1,7 @@
+html {
+  overflow-y: scroll;
+}
+
 #navbar-div {
   border-bottom: 10px;
   border-width: 10px;
@@ -11,19 +15,3 @@
 #navbar {
   margin-right: 1rem;
 }
-
-/* .dark-nav {
-  background-color: black;
-  color: white !important;
-  font-size: 12px;
-} */
-
-/* #nav-container {
-  background-color: black;
-  color: white !important;
-}
-
-.nav-link {
-  color: white !important;
-  font-size: 12px;
-} */

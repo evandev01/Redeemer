@@ -13,11 +13,26 @@ import Staff from './components/Staff/Staff';
 import './App.css';
 
 function App() {
+  const [src, setSrc] = useState();
+  const [linkColor, setLinkColor] = useState();
+
+  const lightColor = 'white';
+  const darkColor = 'black';
+
+  useEffect(() => {
+    if (window.location.pathname === '/watchlive') {
+      document.body.style.setProperty('background-color', 'black');
+      setLinkColor(lightColor);
+    } else {
+      document.body.style.setProperty('background-color', 'white');
+      setLinkColor(darkColor);
+    }
+  }, []);
+
   return (
     <Router>
       <div>
-        <NavTabs />
-        {/* <Header /> */}
+        <NavTabs linkColor={linkColor} />
         <Route path='/' exact component={Home} />
         <Route path='/about' exact component={About} />
         <Route path='/connect' exact component={Connect} />
