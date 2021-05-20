@@ -8,15 +8,15 @@ const WatchLive = () => {
       <Row>
         <Col>
           <Jumbotron className='stream'>
-            <h6 id='coming-soon'>Live Stream coming soon!</h6>
+            {/* <h6 id='coming-soon'>Live Stream</h6> */}
             <iframe
-              id='stream'
-              height='515'
-              width='760'
-              src='https://www.youtube.com'
+              width='560'
+              height='315'
+              src='https://www.youtube.com/embed/5HUAL36GI-M'
+              title='YouTube video player'
               frameborder='0'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-              allowfullscreen='allowfullscreen'
+              allowfullscreen
             ></iframe>
           </Jumbotron>
         </Col>

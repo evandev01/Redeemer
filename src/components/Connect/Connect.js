@@ -4,6 +4,7 @@ import { Container, Row } from 'react-bootstrap';
 import './style.css';
 
 import Header from '../Header';
+import { Link } from 'react-router-dom';
 
 const Connect = () => {
   return (
@@ -21,18 +22,14 @@ const Connect = () => {
             <br />
             Address:
             <br />
-            street
+            5417 IN-10
             <br />
-            city
+            De Motte, IN 46310
             <br />
             <br />
-            Phone:
+            Phone: (219) 345-5725
             <br />
-            (555) 555-5555
-            <br />
-            Email:
-            <br />
-            email@gmail.com
+            Email: <Link>redeemerchurch.life@gmail.com</Link>
           </p>
         </Row>
       </Container>
