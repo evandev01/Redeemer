@@ -4,12 +4,13 @@ import './style.css';
 
 const WatchLive = () => {
   return (
-    <Container>
+    <Container id='stream'>
       <Row>
         <Col>
-          <Jumbotron className='stream'>
+          <Jumbotron id='stream'>
             {/* <h6 id='coming-soon'>Live Stream</h6> */}
             <iframe
+              id='player'
               width='560'
               height='315'
               src='https://www.youtube.com/embed/5HUAL36GI-M'
