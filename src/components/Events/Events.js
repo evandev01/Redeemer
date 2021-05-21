@@ -26,7 +26,7 @@ const Events = () => {
             alt='Watch live sermons'
           />
         </Row>
-        <Row id='home-border' />
+        {/* <Row id='home-border' /> */}
       </Container>
     </Fragment>
   );

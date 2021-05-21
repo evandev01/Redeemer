@@ -1,13 +1,14 @@
 import React, { Fragment } from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row, Image } from 'react-bootstrap';
 import './style.css';
 import Header from '../Header';
+import JoelandNiki from '../../assets/photos/IMG_2487.jpeg';
 
 const About = () => {
   return (
     <Fragment>
       <Container>
-        <Row>
+        <Row className='justify-content-md-center'>
           <Header id='header' />
         </Row>
         <Row className='justify-content-md-center'>
@@ -51,10 +52,15 @@ const About = () => {
           </p>
         </Row>
         <Row className='justify-content-md-center'>
-          <Col md='auto'>
+          <Col className='text-center'>
             <h6 id='about-h6' className='text-center'>
               About Pastor Joel Gilbert
             </h6>
+            <Image
+              id='joel-niki'
+              src={JoelandNiki}
+              alt='Pastor Joel Gilbert and Niki Gilbert'
+            />
           </Col>
         </Row>
         <Row>

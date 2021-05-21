@@ -1,5 +1,10 @@
+/* #side-border{
+
+} */
+
 #home-body {
   margin-top: 2rem;
+  max-height: cover;
 }
 #home-border {
   border-top: 1px solid black;
@@ -8,6 +13,13 @@
 }
 
 #proclaim {
+  margin-top: 2rem;
+  aspect-ratio: 16/10;
+  width: 100%;
+  max-width: 800px;
+}
+
+/* #proclaim {
   height: 400px;
   width: auto;
 }
@@ -22,9 +34,14 @@
     height: 300px;
     width: auto;
   }
-}
+} */
 
 #byg {
+  width: 100%;
+  max-width: 800px;
+}
+
+/* #byg {
   height: 250px;
   width: auto;
 }
@@ -41,8 +58,13 @@
     width: auto;
   }
 }
-
+*/
 #watch {
+  width: 100%;
+  max-width: 800px;
+}
+
+/* #watch {
   height: 350px;
   width: auto;
 }
@@ -57,4 +79,4 @@
     height: 250px;
     width: auto;
   }
-}
+}  */
