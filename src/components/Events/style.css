@@ -9,37 +9,11 @@
 }
 
 #byg-events {
-  width: 700px;
+  width: 90%;
   height: auto;
-}
-@media only screen and (max-width: 992px) {
-  #byg-events {
-    width: 500px;
-    height: auto;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  #byg-events {
-    width: 300px;
-    height: auto;
-  }
 }
 
 #watch-live-events {
-  width: 700px;
+  width: 90%;
   height: auto;
-}
-@media only screen and (max-width: 992px) {
-  #watch-live-events {
-    width: 500px;
-    height: auto;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  #watch-live-events {
-    width: 300px;
-    height: auto;
-  }
 }

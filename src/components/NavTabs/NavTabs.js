@@ -14,7 +14,7 @@ const NavTabs = props => {
           </Col>
           <div id='navBar'>
             <Col>
-              <Navbar className='justify-content-md-center' expand='md'>
+              <Navbar expand='md'>
                 <Navbar.Toggle aria-controls='basic-navbar-nav' />
                 <Navbar.Collapse id='basic-navbar-nav'>
                   <Nav activeKey='/'>
