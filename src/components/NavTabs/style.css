@@ -2,16 +2,55 @@ html {
   overflow-y: scroll;
 }
 
-#navbar-div {
+#nav-logo {
+  width: 90%;
+  height: auto;
+}
+
+.navbar-nav {
+  font-size: 1.3vw;
+  background-color: white;
+  width: 100%;
+  height: auto;
+}
+
+.navbar-toggler {
+  background-color: white;
+  border: 2px solid black;
+}
+
+.navbar-collapse {
+  position: absolute;
+  top: 100%;
+  z-index: 1;
+}
+
+/* #nav-container {
+  position: relative;
+} */
+
+/* .navbar-toggler {
+  display: inline-block;
+} */
+
+/* #navbar-div {
   border-bottom: 10px;
   border-width: 10px;
   margin-right: 2rem;
-}
+} */
 
-#nav-logo {
-  margin-left: 2rem;
-}
+/* background-color: rgb(204, 204, 204); */
+/* padding-left: 1em;
+  padding-right: 1em; */
+/* display: none;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+} */
 
-#navbar {
-  margin-right: 1rem;
-}
+/* .navbar-nav .nav-item {
+  display: block;
+} */
