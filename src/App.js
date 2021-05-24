@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { Image } from 'react-bootstrap';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Connect from './components/Connect/Connect';
@@ -8,13 +9,14 @@ import Events from './components/Events/Events';
 import Giving from './components/Giving/Giving';
 import WatchLive from './components/WatchLive/WatchLive';
 import NavTabs from './components/NavTabs/NavTabs';
-import Header from './components/Header';
 import Staff from './components/Staff/Staff';
 import './App.css';
+import lightHeader from './assets/logo-assets/logo-3trees.png';
 
 function App() {
   const [src, setSrc] = useState();
   const [linkColor, setLinkColor] = useState();
+  const [navColor, setNavColor] = useState();
 
   const lightColor = 'white';
   const darkColor = 'black';
@@ -23,16 +25,19 @@ function App() {
     if (window.location.pathname === '/watchlive') {
       document.body.style.setProperty('background-color', 'black');
       setLinkColor(lightColor);
+      setNavColor(darkColor);
     } else {
       document.body.style.setProperty('background-color', 'white');
       setLinkColor(darkColor);
+      setNavColor(lightColor);
     }
   }, []);
 
   return (
     <Router>
       <div>
-        <NavTabs linkColor={linkColor} />
+        <Image src={lightHeader} id='light-header' />
+        <NavTabs linkColor={linkColor} navColor={navColor} />
         <Route path='/' exact component={Home} />
         <Route path='/about' exact component={About} />
         <Route path='/connect' exact component={Connect} />

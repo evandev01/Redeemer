@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { Col, Container, Row, Image } from 'react-bootstrap';
 import './style.css';
-import Header from '../Header';
+import Header from '../Header/Header';
 import JoelandNiki from '../../assets/photos/IMG_2487.jpeg';
 
 const About = () => {

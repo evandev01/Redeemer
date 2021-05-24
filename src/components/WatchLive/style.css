@@ -12,14 +12,14 @@
 }
 
 #player {
-  margin-top: 2rem;
+  margin-top: 4rem;
   aspect-ratio: 16/9;
   width: 100%;
   max-width: 800px;
 }
 
 #stream-box {
-  position: relative;
+  position: absolute;
   padding-top: 56.25%;
 }
 

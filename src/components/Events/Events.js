@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 import { Col, Image, Row, Container, Jumbotron } from 'react-bootstrap';
 import './style.css';
 
-import Header from '../Header';
+import Header from '../Header/Header';
 import BYG_events from '../../assets/graphics/BYG-events@2x.jpg';
 import WatchLive from '../../assets/graphics/watch-live-events@2x.jpg';
 

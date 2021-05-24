@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-import Header from '../Header';
+import header from '../Header/Header';
 import Proclaim from '../../assets/graphics/proclaim@2x.jpg';
 import BYG from '../../assets/graphics/BYG@2x.jpg';
 import Watch from '../../assets/graphics/watch-live@2x.jpg';
