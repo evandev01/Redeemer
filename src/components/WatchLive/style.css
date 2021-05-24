@@ -8,7 +8,6 @@
 #coming-soon {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
-  /* margin-top: 1rem; */
 }
 
 #player {
@@ -22,9 +21,3 @@
   position: absolute;
   padding-top: 56.25%;
 }
-
-/* #player {
-  position: relative;
-  width: 100%;
-  padding-top: 56.25%;
-} */

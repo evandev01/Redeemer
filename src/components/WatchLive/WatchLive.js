@@ -3,11 +3,6 @@ import { Container, Row, Col, Jumbotron } from 'react-bootstrap';
 import './style.css';
 
 const WatchLive = () => {
-  // useEffect(() => {
-  //   document.body.style.setProperty({ backgroundColor: 'black' });
-  // }, []);
-  // const [isDark, setIsDark] = useState(false);
-
   return (
     <Fragment>
       <Container id='stream'>
