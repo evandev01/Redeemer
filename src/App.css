@@ -3,3 +3,10 @@
 body {
   background-color: white;
 }
+
+#light-header {
+  position: relative;
+  margin-bottom: -5%;
+  width: 100%;
+  height: auto;
+}

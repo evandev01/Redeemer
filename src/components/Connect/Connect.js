@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import './style.css';
 
-import Header from '../Header';
+import Header from '../Header/Header';
 import { Link } from 'react-router-dom';
 
 const Connect = () => {
