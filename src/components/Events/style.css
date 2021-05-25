@@ -9,11 +9,13 @@
 }
 
 #byg-events {
-  width: 90%;
+  width: 100%;
   height: auto;
+  max-width: 800px;
 }
 
 #watch-live-events {
-  width: 90%;
+  width: 100%;
   height: auto;
+  max-width: 800px;
 }

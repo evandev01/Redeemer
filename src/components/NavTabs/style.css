@@ -87,6 +87,15 @@ a.nav-link:hover {
     height: auto;
   }
 }
+@media screen and (max-width: 500px) {
+  .nav-link {
+    font-size: medium;
+    max-width: 80px;
+    min-width: 80px;
+    width: 100%;
+    height: auto;
+  }
+}
 
 @media screen and (min-width: 1271px) {
   .nav-link {
