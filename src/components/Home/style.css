@@ -19,7 +19,7 @@
   #proclaim {
     margin-top: 2rem;
     aspect-ratio: 16/10;
-    width: 100%;
+    width: 50%;
     height: auto;
     max-width: 600px;
   }
@@ -28,7 +28,7 @@
   #proclaim {
     margin-top: 2rem;
     aspect-ratio: 16/10;
-    width: 100%;
+    width: 25%;
     height: auto;
     max-width: 300px;
   }
@@ -41,14 +41,14 @@
 }
 @media only screen and (max-width: 1023px) {
   #byg {
-    width: 100%;
+    width: 50%;
     height: auto;
     max-width: 600px;
   }
 }
 @media only screen and (max-width: 500px) {
   #byg {
-    width: 100%;
+    width: 25%;
     height: auto;
     max-width: 300px;
   }
@@ -61,7 +61,7 @@
 }
 @media only screen and (max-width: 1023px) {
   #watch {
-    width: 100%;
+    width: 50%;
     height: auto;
     max-width: 600px;
   }
