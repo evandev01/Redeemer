@@ -1,5 +1,14 @@
+#stream-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 #player {
   margin-top: 4rem;
   max-width: 100%;
   max-height: auto;
+}
+
+#video-player {
+  margin-top: 3rem;
 }
