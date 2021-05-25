@@ -7,10 +7,7 @@ import JoelandNiki from '../../assets/photos/IMG_2487.jpeg';
 const About = () => {
   return (
     <Fragment>
-      <Container>
-        <Row className='justify-content-md-center'>
-          <Header id='header' />
-        </Row>
+      <Container id='about-container'>
         <Row className='justify-content-md-center'>
           <Col md='auto'>
             <h6 id='about-h6' className='text-center'>
