@@ -1,15 +1,12 @@
-import React from 'react';
-
+import React, { Fragment } from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import './style.css';
-
 import Joel from '../../assets/photos/IMG_2488.jpeg';
 import Georgette from '../../assets/photos/IMG_2493.jpeg';
 import Lisa from '../../assets/photos/IMG_2499.jpeg';
 import Steve from '../../assets/photos/IMG_2479.jpeg';
 import David from '../../assets/photos/IMG_2478.jpeg';
 import Bob from '../../assets/photos/IMG_2475.jpeg';
-import { Fragment } from 'react';
 
 const Staff = () => {
   return (

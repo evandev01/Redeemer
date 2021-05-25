@@ -1,7 +1,6 @@
 import React from 'react';
-import { Col, Container, Image, Row } from 'react-bootstrap';
+import { Container, Image, Row } from 'react-bootstrap';
 import './style.css';
-// import logo from '../../assets/header-assets/logo_header.jpg';
 import header from '../../assets/logo-assets/logo-3trees.png';
 
 const Header = props => {

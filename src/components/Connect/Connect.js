@@ -8,7 +8,6 @@ import logo from '../../assets/logo-assets/red_logo01.png';
 const Connect = () => {
   return (
     <Fragment>
-      {/* <Header /> */}
       <Container id='content'>
         <Jumbotron id='jumbo'>
           <Row className='justify-content-md-center'>

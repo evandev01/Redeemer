@@ -1,7 +1,5 @@
-import React, { useEffect } from 'react';
-import { Fragment } from 'react';
-import { Nav, Container, Image, Row, Col, Navbar } from 'react-bootstrap';
-import logo from '../../assets/logo-assets/logo-3trees.png';
+import React, { Fragment } from 'react';
+import { Nav, Container, Row, Col, Navbar } from 'react-bootstrap';
 import './style.css';
 
 const NavTabs = props => {

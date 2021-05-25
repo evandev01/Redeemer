@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Image } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 import Home from './components/Home/Home';
 import About from './components/About/About';
 import Connect from './components/Connect/Connect';
@@ -10,7 +11,6 @@ import Giving from './components/Giving/Giving';
 import WatchLive from './components/WatchLive/WatchLive';
 import NavTabs from './components/NavTabs/NavTabs';
 import Staff from './components/Staff/Staff';
-import './App.css';
 import lightHeader from './assets/logo-assets/logo-3trees.png';
 import darkHeader from './assets/logo-assets/logo-3trees-dark.png';
 
@@ -56,28 +56,3 @@ function App() {
 }
 
 export default App;
-
-// import headerImage from './assets/header-assets/image01_edit.jpg'
-// import image01 from './assets/header-assets/image01_edit.jpg';
-// import image02 from './assets/header-assets/image02.jpg';
-// import image03 from './assets/header-assets/image03.jpg';
-
-// const [srcState, setSrcState] = useState();
-
-// useEffect(() => {
-//   handleHeader();
-// }, []);
-
-// function handleHeader() {
-//   if (window.location.pathname === '/') {
-//     setSrcState(image01)
-//   } else if (window.location.pathname === '/about') {
-//     setSrcState(image02)
-//   } else if (window.location.pathname === '/contact') {
-//     setSrcState(image03)
-//   } else if (window.location.pathname === '/events') {
-//     setSrcState(image01)
-//   } else if (window.location.pathname === '/news') {
-//     setSrcState(image02)
-//   }
-// };

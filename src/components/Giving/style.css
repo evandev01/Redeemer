@@ -2,17 +2,18 @@
   margin-top: 6%;
 }
 
-#online-giving {
-  position: absolute;
-  font-family: 'Titillium Web', sans-serif;
-  font-weight: 700;
-  width: 5rem;
-  margin-top: -5%;
-}
-
 #tithes {
-  position: relative;
-  max-width: 500px;
+  font-family: 'Titillium Web', sans-serif;
+  max-width: 600px;
   width: 100%;
   height: auto;
+}
+
+@media only screen and (max-width: 450px) {
+  #tithes {
+    font-family: 'Titillium Web', sans-serif;
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+  }
 }

@@ -1,3 +1,15 @@
+#about-container {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 767px) {
+  #about-container {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
 #joel-niki {
   width: 33%;
   height: auto;
@@ -11,22 +23,6 @@
   }
 }
 
-@media only screen and (min-width: 768px) {
-  #about-container {
-    margin-top: 10%;
-  }
-}
-@media only screen and (min-width: 992px) {
-  #about-container {
-    margin-top: 8%;
-  }
-}
-@media only screen and (min-width: 1272px) {
-  #about-container {
-    margin-top: 6%;
-  }
-}
-
 #bottom {
   margin-bottom: 2rem;
 }
@@ -36,7 +32,6 @@
   font-weight: 600;
 }
 
-/* font */
 #para {
   font-family: 'KoHo', sans-serif;
   text-indent: 1.5em;

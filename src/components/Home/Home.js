@@ -1,12 +1,9 @@
-import React, { Fragment, useState, useEffect } from 'react';
-
-import header from '../Header/Header';
+import React, { Fragment } from 'react';
+import { Container, Row, Col, Image } from 'react-bootstrap';
+import './style.css';
 import Proclaim from '../../assets/graphics/proclaim@2x.jpg';
 import BYG from '../../assets/graphics/BYG@2x.jpg';
 import Watch from '../../assets/events/watch-live.jpg';
-import test from '../../assets/photos/IMG_2483.jpeg';
-import { Container, Row, Col, Image } from 'react-bootstrap';
-import './style.css';
 
 const Home = () => {
   return (
@@ -50,6 +47,3 @@ const Home = () => {
 };
 
 export default Home;
-
-//  <Image src={JoelAndNiki} alt='Pastor Joel Gilbert and Niki Gilbert' />
-//           <h6 id='proclaim'>Proclaiming the gospel of Jesus Christ</h6>
