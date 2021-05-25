@@ -3,9 +3,28 @@
   height: auto;
   margin-bottom: 0.5rem;
 }
+@media only screen and (min-width: 992px) {
+  #joel-niki {
+    width: 28%;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+}
 
-#header {
-  margin-top: 1rem;
+@media only screen and (min-width: 768px) {
+  #about-container {
+    margin-top: 10%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #about-container {
+    margin-top: 8%;
+  }
+}
+@media only screen and (min-width: 1272px) {
+  #about-container {
+    margin-top: 6%;
+  }
 }
 
 #bottom {
@@ -19,38 +38,14 @@
 
 /* font */
 #para {
+  font-family: 'KoHo', sans-serif;
   text-indent: 1.5em;
   margin-left: 1rem;
   margin-right: 1rem;
+  font-weight: 500;
 }
 
 #verse {
   font-family: 'KoHo', sans-serif;
   font-weight: 600;
 }
-
-/* verse */
-/* font-size: 1.1vw; */
-/* margin-left: 4rem;
-  margin-right: 4rem; */
-
-/* @media screen and (min-width: 992px) {
-  #para {
-    font-family: 'KoHo', sans-serif;
-    font-weight: 500;
-    font-size: 1vw;
-    text-indent: 1.5em;
-    margin-left: 10rem;
-    margin-right: 10rem;
-  }
-} */
-/* @media screen and (max-width: 375px) {
-  #para {
-    font-family: 'KoHo', sans-serif;
-    font-weight: 500;
-    font-size: 1vw;
-    text-indent: 1.5em;
-    margin-left: 0;
-    margin-right: 0;
-  }
-} */

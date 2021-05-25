@@ -1,6 +1,13 @@
 #staff {
-  margin-top: 1.5rem;
+  margin-top: 3rem;
 }
+
+@media only screen and (min-width: 1271px) {
+  #staff {
+    margin-top: 3rem;
+  }
+}
+
 #photo {
   height: 267px;
   width: 200px;

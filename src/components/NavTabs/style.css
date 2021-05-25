@@ -51,17 +51,38 @@ html {
 }
 
 a.nav-link:hover {
-  background-color: rgba(237, 255, 71, 0.247) !important;
-  border: 1px solid black !important;
+  background-color: rgba(124, 124, 124, 0.562) !important;
+  color: white !important;
+  /* border-bottom: 1px solid black !important; */
   /* box-sizing: border-box; */
-  box-shadow: 4px 4px 4px teal;
+  /* box-shadow: 1px 1px 2px 1px rgb(138, 138, 138); */
 }
 
 @media screen and (max-width: 1271px) {
   .nav-link {
     font-size: medium;
+    max-width: 110px;
+    min-width: 110px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .nav-link {
+    font-size: small;
     max-width: 90px;
     min-width: 90px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .nav-link {
+    font-size: smaller;
+    max-width: 80px;
+    min-width: 80px;
     width: 100%;
     height: auto;
   }

@@ -12,31 +12,36 @@ import NavTabs from './components/NavTabs/NavTabs';
 import Staff from './components/Staff/Staff';
 import './App.css';
 import lightHeader from './assets/logo-assets/logo-3trees.png';
+import darkHeader from './assets/logo-assets/logo-3trees-dark.png';
 
 function App() {
   const [src, setSrc] = useState();
   const [linkColor, setLinkColor] = useState();
   const [navColor, setNavColor] = useState();
 
-  const lightColor = 'white';
-  const darkColor = 'black';
+  const lightLinkColor = 'white';
+  const darkLinkColor = '#666666';
+  const lightNavColor = 'white';
+  const darkNavColor = 'black';
 
   useEffect(() => {
     if (window.location.pathname === '/watchlive') {
       document.body.style.setProperty('background-color', 'black');
-      setLinkColor(lightColor);
-      setNavColor(darkColor);
+      setLinkColor(lightLinkColor);
+      setNavColor(darkNavColor);
+      setSrc(darkHeader);
     } else {
       document.body.style.setProperty('background-color', 'white');
-      setLinkColor(darkColor);
-      setNavColor(lightColor);
+      setLinkColor(darkLinkColor);
+      setNavColor(lightNavColor);
+      setSrc(lightHeader);
     }
   }, []);
 
   return (
     <Router>
       <div>
-        <Image src={lightHeader} id='light-header' />
+        <Image src={src} id='light-header' />
         <NavTabs linkColor={linkColor} navColor={navColor} />
         <Route path='/' exact component={Home} />
         <Route path='/about' exact component={About} />

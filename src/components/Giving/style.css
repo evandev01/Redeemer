@@ -1,5 +1,18 @@
+#tithe-container {
+  margin-top: 6%;
+}
+
 #online-giving {
+  position: absolute;
   font-family: 'Titillium Web', sans-serif;
   font-weight: 700;
-  margin-top: 10rem;
+  width: 5rem;
+  margin-top: -5%;
+}
+
+#tithes {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
 }

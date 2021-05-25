@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 import header from '../Header/Header';
 import Proclaim from '../../assets/graphics/proclaim@2x.jpg';
 import BYG from '../../assets/graphics/BYG@2x.jpg';
-import Watch from '../../assets/graphics/watch-live@2x.jpg';
+import Watch from '../../assets/events/watch-live.jpg';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import './style.css';
 
