@@ -9,14 +9,6 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import './style.css';
 
 const Home = () => {
-  const [proState, setProState] = useState(Proclaim);
-
-  useEffect(() => {
-    if (window.innerWidth <= '600px') {
-      setProState(test);
-    }
-  }, []);
-
   return (
     <Fragment>
       <Container id='home-body'>
@@ -25,7 +17,7 @@ const Home = () => {
           <Col xs={12} sm={12} md={10} lg={8}>
             <Image
               id='proclaim'
-              src={proState}
+              src={Proclaim}
               alt='Pastor Joel proclaiming the name of Jesus'
             />
           </Col>
