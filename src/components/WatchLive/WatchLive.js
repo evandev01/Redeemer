@@ -11,7 +11,7 @@ const WatchLive = () => {
             id='player'
             // width='2000'
             // height='1125'
-            src='https://www.youtube.com/embed/5HUAL36GI-M'
+            src='https://www.youtube.com/embed/3tjSwyRHBN0'
             title='YouTube video player'
             frameborder='1'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
