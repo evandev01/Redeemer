@@ -14,7 +14,7 @@ const Home = () => {
       <Container id='home-body'>
         <Row className='justify-content-md-center'>
           <Col md='auto' />
-          <Col xs={12} sm={12} md={10} lg={8}>
+          <Col xs={12} sm={12} md={10} lg={10}>
             <Image
               id='proclaim'
               src={Proclaim}
@@ -26,14 +26,18 @@ const Home = () => {
 
         <Row id='home-border' />
         <Row className='justify-content-md-center'>
-          <Image id='byg' src={BYG} alt='Behold Your God Bible Study' />
+          <Col md='auto' />
+          <Col xs={12} sm={12} md={10} lg={10}>
+            <Image id='byg' src={BYG} alt='Behold Your God Bible Study' />
+          </Col>
+          <Col md='auto' />
         </Row>
 
         <Row id='home-border' />
 
         <Row className='justify-content-md-center'>
           <Col md='auto' />
-          <Col xs={12} sm={12} md={10} lg={8}>
+          <Col xs={12} sm={12} md={10} lg={10}>
             <Image id='watch' src={Watch} alt='Watch live sermons' />
           </Col>
           <Col md='auto' />

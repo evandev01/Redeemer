@@ -12,21 +12,30 @@ const Events = () => {
     <Fragment>
       <Container id='events-body'>
         <Row className='justify-content-md-center'>
-          <Image
-            id='byg-events'
-            src={BYG_events}
-            alt='Behold Your God Bible study'
-          />
+          <Col md='auto' />
+          <Col xs={12} sm={12} md={10} lg={10}>
+            <Image
+              id='byg-events'
+              src={BYG_events}
+              alt='Behold Your God Bible study'
+            />
+          </Col>
+          <Col md='auto' />
         </Row>
+
         <Row id='home-border' />
+
         <Row className='justify-content-md-center'>
-          <Image
-            id='watch-live-events'
-            src={WatchLive}
-            alt='Watch live sermons'
-          />
+          <Col md='auto' />
+          <Col xs={12} sm={12} md={10} lg={10}>
+            <Image
+              id='watch-live-events'
+              src={WatchLive}
+              alt='Watch live sermons'
+            />
+          </Col>
+          <Col md='auto' />
         </Row>
-        {/* <Row id='home-border' /> */}
       </Container>
     </Fragment>
   );

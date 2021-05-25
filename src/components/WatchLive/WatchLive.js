@@ -7,16 +7,18 @@ const WatchLive = () => {
     <Fragment>
       <Container id='stream'>
         <Row className='justify-content-md-center'>
-          <iframe
-            id='player'
-            // width='2000'
-            // height='1125'
-            src='https://www.youtube.com/embed/3tjSwyRHBN0'
-            title='YouTube video player'
-            frameborder='1'
-            allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
-            allowfullscreen
-          ></iframe>
+          <Col md='auto' />
+          <Col xs={12} sm={12} md={10} lg={10}>
+            <iframe
+              id='player'
+              src='https://www.youtube.com/embed/3tjSwyRHBN0'
+              title='YouTube video player'
+              frameborder='1'
+              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
+              allowfullscreen
+            ></iframe>
+          </Col>
+          <Col md='auto' />
         </Row>
       </Container>
     </Fragment>
