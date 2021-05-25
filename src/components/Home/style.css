@@ -1,7 +1,3 @@
-/* #side-border{
-
-} */
-
 #home-body {
   margin-top: 2rem;
   max-height: cover;
@@ -23,10 +19,8 @@
   #proclaim {
     margin-top: 2rem;
     aspect-ratio: 16/10;
-    width: 80%;
+    width: 100%;
     height: auto;
-    margin-left: 10%;
-    margin-right: 10%;
     max-width: 600px;
   }
 }
@@ -34,10 +28,8 @@
   #proclaim {
     margin-top: 2rem;
     aspect-ratio: 16/10;
-    width: 60%;
+    width: 100%;
     height: auto;
-    margin-left: 15%;
-    margin-right: 15%;
     max-width: 300px;
   }
 }
@@ -49,19 +41,15 @@
 }
 @media only screen and (max-width: 1023px) {
   #byg {
-    width: 80%;
+    width: 100%;
     height: auto;
-    margin-left: 10%;
-    margin-right: 10%;
     max-width: 600px;
   }
 }
 @media only screen and (max-width: 500px) {
   #byg {
-    width: 60%;
+    width: 100%;
     height: auto;
-    margin-left: 15%;
-    margin-right: 15%;
     max-width: 300px;
   }
 }
@@ -73,19 +61,15 @@
 }
 @media only screen and (max-width: 1023px) {
   #watch {
-    width: 80%;
+    width: 100%;
     height: auto;
-    margin-left: 10%;
-    margin-right: 10%;
     max-width: 600px;
   }
 }
 @media only screen and (max-width: 500px) {
   #watch {
-    width: 60%;
+    width: 100%;
     height: auto;
-    margin-left: 15%;
-    margin-right: 15%;
     max-width: 300px;
   }
 }
