@@ -50,12 +50,12 @@ const Staff = () => {
             <h6 id='staff-h6'>Steve Renfrow</h6>
           </Col>
 
-          <Col xs={6} lg={4} className='text-center' md='auto'>
-            <Image src='' alt='Shane Felber' id='photo' />
+          {/* <Col xs={6} lg={4} className='text-center' md='auto'>
+            <Image src='' alt='' id='photo' />
             <h6 md='auto' id='staff-h6'>
-              Shane Felber
+              
             </h6>
-          </Col>
+          </Col> */}
         </Row>
 
         <Row className='justify-content-md-center'>

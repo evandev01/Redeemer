@@ -16,9 +16,9 @@ const About = () => {
         </Row>
         <Row>
           <p id='para' className='text-left'>
-            At Redeemer Church, we seek to bring together the God's mission and
-            the mission of the Church by making disciples who delight in,
-            display, and declare the glorious gospel of Jesus Christ!
+            At Redeemer Church, we seek to bring together God's mission and the
+            mission of the Church by making disciples who delight in, display,
+            and declare the glorious gospel of Jesus Christ!
           </p>
         </Row>
 
@@ -80,16 +80,16 @@ const About = () => {
           <Col md='auto'>
             <p id='verse' className='text-left'>
               “But speaking the truth in love, let us grow in every way into him
-              who is the head—Christ.” ||Ephesians 4:15||
+              who is the head—Christ.” (Ephesians 4:1)|
               <br />
               “Now the goal of our instruction is love that comes from a pure
-              heart, a good conscience, and a sincere faith.” ||1 Timothy 1:5 ||
+              heart, a good conscience, and a sincere faith.” (1 Timothy 1:5)
             </p>
           </Col>
         </Row>
         <Row>
           <p id='para' className='text-left'>
-            In preaching it’s not just that preachers need both truth and love.
+            In preaching, it’s not just that preachers need both truth and love.
             Gospel truth has not reached its goal until it produces love. Love
             has no living roots without gospel truth. Therefore, the goal and
             aim of my preaching is that the truth of Christ would and must be
@@ -102,12 +102,12 @@ const About = () => {
           </p>
 
           <p id='para' className='text-left'>
-            As a preacher I sincerely want my heart burn with love each week. If
-            the Spirit intends to work in the hearers of the Word, I’ve learned
-            that He generally works first in the preacher of the Word. In wisdom
-            I wholeheartedly covet the prayers of God’s people for the filling
-            of the Holy Spirit that I may preach in the power of the Spirit and
-            for the glory of God alone!
+            As a preacher, I sincerely want my heart burn with love each week.
+            If the Spirit intends to work in the hearers of the Word, I’ve
+            learned that He generally works first in the preacher of the Word.
+            In wisdom I wholeheartedly covet the prayers of God’s people for the
+            filling of the Holy Spirit that I may preach in the power of the
+            Spirit and for the glory of God alone!
             <br />
             (Acts 4:8, 29–33; Eph. 6:18–20)
           </p>
