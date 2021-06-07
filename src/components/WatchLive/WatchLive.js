@@ -10,10 +10,9 @@ const WatchLive = () => {
           <Col md='auto' />
           <Col xs={12} sm={12} md={10} lg={10} className='text-center'>
             <iframe
-              id='player'
               width='560'
               height='315'
-              src='https://www.youtube.com/embed/3tjSwyRHBN0'
+              src='https://www.youtube.com/embed/uTEVti7Ec1k'
               title='YouTube video player'
               frameborder='0'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
