@@ -47,7 +47,7 @@ const Giving = () => {
                   src={vancoIcon}
                   alt='Vanco Mobile Faith Engagement'
                   style={{
-                    maxWidth: '160px',
+                    width: '160px',
                     height: 'auto',
                     // borderRadius: '22%',
                     // overflow: 'hidden',
