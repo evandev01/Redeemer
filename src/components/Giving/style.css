@@ -17,3 +17,16 @@
     height: auto;
   }
 }
+
+#app-download {
+  margin-top: 1rem;
+}
+
+#online-giving {
+  padding: 14px 40px;
+}
+
+#give-border {
+  border-top: 1px solid black;
+  margin-top: 4rem;
+}
