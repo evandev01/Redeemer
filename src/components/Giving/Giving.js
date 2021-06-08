@@ -49,10 +49,10 @@ const Giving = () => {
                   style={{
                     maxWidth: '160px',
                     height: 'auto',
-                    borderRadius: '22%',
-                    overflow: 'hidden',
-                    display: 'inline-block',
-                    verticalAlign: 'middle',
+                    // borderRadius: '22%',
+                    // overflow: 'hidden',
+                    // display: 'inline-block',
+                    // verticalAlign: 'middle',
                     marginBottom: '1rem'
                   }}
                 />
