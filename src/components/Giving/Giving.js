@@ -44,15 +44,16 @@ const Giving = () => {
               </Card.Text>
               <Row className='justify-content-center'>
                 <Image
+                  id='vanco-icon'
                   src={vancoIcon}
                   alt='Vanco Mobile Faith Engagement'
                   style={{
-                    width: '160px',
+                    maxWidth: '160px',
                     height: 'auto',
-                    // borderRadius: '22%',
-                    // overflow: 'hidden',
-                    // display: 'inline-block',
-                    // verticalAlign: 'middle',
+                    borderRadius: '22%',
+                    overflow: 'hidden',
+                    display: 'inline-block',
+                    verticalAlign: 'middle',
                     marginBottom: '1rem'
                   }}
                 />
