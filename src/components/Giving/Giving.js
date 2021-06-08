@@ -42,20 +42,21 @@ const Giving = () => {
               <Card.Text className='text-center'>
                 Download the Vanco Mobile App
               </Card.Text>
-              <Row className='justify-content-center'>
+              <Row id='vanco-icon-row' className='justify-content-center'>
                 <Image
                   id='vanco-icon'
                   src={vancoIcon}
                   alt='Vanco Mobile Faith Engagement'
-                  style={{
-                    maxWidth: '160px',
-                    height: 'auto',
-                    borderRadius: '22%',
-                    overflow: 'hidden',
-                    display: 'inline-block',
-                    verticalAlign: 'middle',
-                    marginBottom: '1rem'
-                  }}
+                  // style={{
+                  //   width: '100%',
+                  //   height: 'auto',
+                  //   maxWidth: '160px',
+                  // borderRadius: '22%',
+                  // overflow: 'hidden',
+                  // display: 'inline-block',
+                  // verticalAlign: 'middle',
+                  //   marginBottom: '1rem'
+                  // }}
                 />
               </Row>
               <Container id='app-stores'>

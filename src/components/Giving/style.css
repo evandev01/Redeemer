@@ -31,12 +31,17 @@
   margin-top: 4rem;
 }
 
-/* #vanco-icon {
-  width: '100px';
+#vanco-icon {
+  width: '100%';
   height: 'auto';
+  max-width: 160px;
   border-radius: '22%';
   overflow: 'hidden';
   display: 'inline-block';
   vertical-align: 'middle';
   margin-bottom: '1rem';
-} */
+}
+
+#vanco-icon-row {
+  margin-bottom: 2rem;
+}
