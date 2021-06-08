@@ -44,21 +44,23 @@ const Giving = () => {
               </Card.Text>
               <Container id='app-stores'>
                 <Row id='vanco-icon-row' className='justify-content-center'>
-                  <Image
-                    id='vanco-icon'
-                    src={vancoIcon}
-                    alt='Vanco Mobile Faith Engagement'
-                    // style={{
-                    //   width: '100%',
-                    //   height: 'auto',
-                    //   maxWidth: '160px',
-                    // borderRadius: '22%',
-                    // overflow: 'hidden',
-                    // display: 'inline-block',
-                    // verticalAlign: 'middle',
-                    //   marginBottom: '1rem'
-                    // }}
-                  />
+                  <Col className='text-center' xs={12} md={12} lg={12}>
+                    <Image
+                      id='vanco-icon'
+                      src={vancoIcon}
+                      alt='Vanco Mobile Faith Engagement'
+                      // style={{
+                      //   width: '100%',
+                      //   height: 'auto',
+                      //   maxWidth: '160px',
+                      // borderRadius: '22%',
+                      // overflow: 'hidden',
+                      // display: 'inline-block',
+                      // verticalAlign: 'middle',
+                      //   marginBottom: '1rem'
+                      // }}
+                    />
+                  </Col>
                 </Row>
 
                 <Row className='justify-content-center'>
