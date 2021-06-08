@@ -35,10 +35,10 @@
   width: '100%';
   height: 'auto';
   max-width: 160px;
-  border-radius: '22%';
+  /* border-radius: '22%';
   overflow: 'hidden';
   display: 'inline-block';
-  vertical-align: 'middle';
+  vertical-align: 'middle'; */
   margin-bottom: '1rem';
 }
 
