@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import { Container, Row, Col, Button, Card, Image } from 'react-bootstrap';
 import vancoIcon from '../../assets/vanco/vanco-mobile.png';
-import appStore from '../../assets/vanco/app_store.svg';
 import googlePlay from '../../assets/vanco/google-play.png';
 import tithes from '../../assets/graphics/tithes_img.jpg';
 import './style.css';
@@ -49,16 +48,6 @@ const Giving = () => {
                       id='vanco-icon'
                       src={vancoIcon}
                       alt='Vanco Mobile Faith Engagement'
-                      // style={{
-                      //   width: '100%',
-                      //   height: 'auto',
-                      //   maxWidth: '160px',
-                      // borderRadius: '22%',
-                      // overflow: 'hidden',
-                      // display: 'inline-block',
-                      // verticalAlign: 'middle',
-                      //   marginBottom: '1rem'
-                      // }}
                     />
                   </Col>
                 </Row>

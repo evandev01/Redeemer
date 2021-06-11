@@ -49,13 +49,6 @@ const Staff = () => {
             <Image src={Steve} alt='Steve - Elder' id='photo' />
             <h6 id='staff-h6'>Steve Renfrow</h6>
           </Col>
-
-          {/* <Col xs={6} lg={4} className='text-center' md='auto'>
-            <Image src='' alt='' id='photo' />
-            <h6 md='auto' id='staff-h6'>
-              
-            </h6>
-          </Col> */}
         </Row>
 
         <Row className='justify-content-md-center'>
