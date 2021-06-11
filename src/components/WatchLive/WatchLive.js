@@ -6,10 +6,11 @@ const WatchLive = () => {
   return (
     <Fragment>
       <Container id='stream-container'>
-        <Row id='stream-player' className='justify-content-md-center'>
+        <Row id='stream-player' className='justify-content-center'>
           <Col md='auto' />
           <Col xs={12} sm={12} md={10} lg={10} className='text-center'>
             <iframe
+              id='player'
               width='560'
               height='315'
               src='https://www.youtube.com/embed/RH6KogtpP_E'
@@ -23,7 +24,7 @@ const WatchLive = () => {
           <Col md='auto' />
         </Row>
 
-        <Row id='video-player' className='justify-content-md-center'>
+        <Row id='video-player' className='justify-content-center'>
           <Col md='auto' />
           <Col xs={12} sm={12} md={10} lg={10} className='text-center'>
             <iframe
