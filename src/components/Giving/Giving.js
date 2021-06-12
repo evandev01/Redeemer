@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react';
 import { Container, Row, Col, Button, Card, Image } from 'react-bootstrap';
-import vancoIcon from '../../assets/vanco/vanco-mobile.png';
-import googlePlay from '../../assets/vanco/google-play.png';
-import tithes from '../../assets/graphics/tithes_img.jpg';
+import VancoIcon from '../../assets/vanco/vanco-mobile.png';
+import GooglePlay from '../../assets/vanco/google-play.png';
+import AppStore from '../../assets/vanco/app-store2.png';
+import Tithes from '../../assets/graphics/tithes_img.jpg';
 import './style.css';
 
 const Giving = () => {
@@ -11,7 +12,7 @@ const Giving = () => {
       <Container id='tithe-container'>
         <Row className='justify-content-center'>
           <Card id='tithes' bg='dark' text='light'>
-            <Card.Img variant='top' src={tithes} />
+            <Card.Img variant='top' src={Tithes} />
             <Card.Body>
               <Card.Title className='text-center'>
                 Tithes and Offering
@@ -46,7 +47,7 @@ const Giving = () => {
                   <Col className='text-center' xs={12} md={12} lg={12}>
                     <Image
                       id='vanco-icon'
-                      src={vancoIcon}
+                      src={VancoIcon}
                       alt='Vanco Mobile Faith Engagement'
                     />
                   </Col>
@@ -55,7 +56,7 @@ const Giving = () => {
                 <Row className='justify-content-center'>
                   <a href='https://apps.apple.com/us/app/vanco-mobile-faith-engagement/id1504961674?itsct=apps_box_badge&amp;itscg=30200'>
                     <Image
-                      src='https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1588291200&h=237bfd1056c25049e01e07f0a567a9bd'
+                      src={AppStore}
                       alt='Download on the App Store'
                       style={{
                         width: '150px',
@@ -67,7 +68,7 @@ const Giving = () => {
                 <Row className='justify-content-center'>
                   <a href='https://play.google.com/store/apps/details?id=com.vancopayments.vancomobile&hl=en_US&gl=US'>
                     <Image
-                      src={googlePlay}
+                      src={GooglePlay}
                       alt='Get it on Google Play'
                       style={{
                         width: '150px',
