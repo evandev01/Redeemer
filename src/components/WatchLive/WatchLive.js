@@ -1,6 +1,6 @@
-import React, { Fragment } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import './style.css';
+import React, { Fragment } from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import './style.css'
 
 const WatchLive = () => {
   return (
@@ -13,7 +13,7 @@ const WatchLive = () => {
               id='player'
               width='560'
               height='315'
-              src='https://www.youtube.com/embed/eH_sPWYzY8E'
+              src='https://www.youtube.com/embed/ihKnox7hn-Y'
               title='YouTube video player'
               frameborder='0'
               allow='accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture'
@@ -43,7 +43,7 @@ const WatchLive = () => {
         </Row>
       </Container>
     </Fragment>
-  );
-};
+  )
+}
 
-export default WatchLive;
+export default WatchLive
