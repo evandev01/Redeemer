@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
-import { Container, Row, Col, Image } from 'react-bootstrap';
-import './style.css';
-import Proclaim from '../../assets/graphics/proclaim@2x.jpg';
-import BYG from '../../assets/graphics/BYG@2x.jpg';
-import Watch from '../../assets/events/watch-live.jpg';
+import React, { Fragment } from 'react'
+import { Container, Row, Col, Image } from 'react-bootstrap'
+import './style.css'
+import Proclaim from '../../assets/graphics/proclaim_7.4.jpg'
+import BYG from '../../assets/graphics/BYG@2x.jpg'
+import Watch from '../../assets/events/watch-live.jpg'
 
 const Home = () => {
   return (
@@ -43,7 +43,7 @@ const Home = () => {
         <Row id='home-border' />
       </Container>
     </Fragment>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
