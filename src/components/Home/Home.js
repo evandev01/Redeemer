@@ -14,24 +14,26 @@ const Home = () => {
       <Container id='home-body' className='mt-5'>
         <Row>
           <Col className='text-center mt-5'>
-            <h1 className='mb-4'>Proclaiming the gospel of Jesus Christ</h1>
+            <h2 className='mb-4'>Proclaiming the gospel of Jesus Christ</h2>
           </Col>
         </Row>
         <Row>
           <Image id='joel' src={Joel} className='ml-3'></Image>
 
           <Col className='ml-3'>
-            <p id='hebrew' className='mt-3'>
+            <p id='hebrew-home' className='mt-3'>
               "so that at the name of Jesus every knee will bow in heaven and on
               earth and every tongue will confess that Jesus Christ is Lord, to
-              the glory of God the Father." (Phillippians 2:10)"
+              the glory of God the Father."
+              <br />
+              (Phillippians 2:10)"
             </p>
             <br />
             <br />
             <h6 id='join-us' className='mt-5'>
               Join us for service!
             </h6>
-            <p id='hebrew' className='mt-3'>
+            <p id='hebrew-home' className='mt-3'>
               Sunday: 10:00am <br />
               Wednesday: 6:30pm
               <br />
@@ -89,7 +91,7 @@ const Home = () => {
         <Row>
           <Col>
             <p id='current-wk' className='text-center mt-3'>
-              Click here{'  '}
+              Click here: {'  '}
               <a href='https://www.youtube.com/channel/UCTblLpAk1fUXwWiMm3-u6wQ'>
                 <Image id='youtube-logo' src={YouTube} alt='YouTube logo' />
               </a>
