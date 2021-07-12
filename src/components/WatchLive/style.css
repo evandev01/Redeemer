@@ -12,3 +12,9 @@
 #video-player {
   margin-top: 3rem;
 }
+
+#live-border {
+  border-top: 1px solid gray;
+  margin-top: 8rem;
+  margin-bottom: 4rem;
+}

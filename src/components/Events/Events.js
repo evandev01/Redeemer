@@ -1,41 +1,80 @@
-import React, { Fragment } from 'react';
-import { Col, Image, Row, Container } from 'react-bootstrap';
-import './style.css';
-import BYG_events from '../../assets/graphics/BYG-events@2x.jpg';
-import WatchLive from '../../assets/events/watch-live-events.jpg';
+import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom'
+import { Col, Image, Row, Container } from 'react-bootstrap'
+import './style.css'
+import BYG_events from '../../assets/graphics/BYG-events@2x.jpg'
+import WatchLive from '../../assets/events/watch-live-events.jpg'
+import BYG from '../../assets/graphics/byg-img.jpg'
+import Watch from '../../assets/icons/video-icon.jpg'
+import YouTube from '../../assets/icons/youtube-logo2.png'
 
 const Events = () => {
   return (
     <Fragment>
       <Container id='events-body'>
-        <Row className='justify-content-md-center'>
-          <Col md='auto' />
-          <Col xs={12} sm={12} md={10} lg={10}>
+        <Row className='text-center mt-3'>
+          <Col lg={4}>
             <Image
+              className='py-3'
               id='byg-events'
-              src={BYG_events}
-              alt='Behold Your God Bible study'
+              src={BYG}
+              alt='Behold Your God Bible Study'
+              // className='py-3'
             />
           </Col>
-          <Col md='auto' />
+          <Col lg={8} md={12} className='justify-content-center'>
+            <h6 id='byg-h6-e' className='text-center'>
+              Behold Your God Bible Study
+            </h6>
+            <p id='current-wk-e' className='text-center'>
+              Current Week: 6
+            </p>
+            <p id='hebrew-p' className='text-left mr-5'>
+              Behold Your God is a 12-week study for churches, small groups,
+              families or individuals containing 12 sessions that are reinforced
+              by a 12-week daily workbook. Each week's lesson is preceded by a
+              brief historical profile of a notable man or woman of God such as
+              George Muller, A. W. Tozer, Samuel Rutherford, Charles Spurgeon,
+              Martyn Lloyd-Jones, Amy Carmichael, Robert Murray M'Cheyne, George
+              Whitefield, Daniel Rowland and Jonathan Edwards. The heart of each
+              DVD is a 30-minute lesson on one aspect of the Christian life and
+              how it is affected by a biblical rethinking of God's character.
+              The teaching sessions are led by Dr. John Snyder, pastor of Christ
+              Church in New Albany, Mississippi.
+            </p>
+          </Col>
         </Row>
 
         <Row id='home-border' />
 
         <Row className='justify-content-md-center'>
-          <Col md='auto' />
-          <Col xs={12} sm={12} md={10} lg={10}>
+          <Col className='text-center'>
+            <h4 id='stream-h6' className='text-center'>
+              Sermons Streaming Live Now!
+            </h4>
             <Image
-              id='watch-live-events'
-              src={WatchLive}
+              id='watch'
+              src={Watch}
               alt='Watch live sermons'
+              className='mt-3'
             />
           </Col>
-          <Col md='auto' />
+        </Row>
+        <Row>
+          <Col>
+            <p id='current-wk' className='text-center mt-3'>
+              Click here{'  '}
+              <a href='https://www.youtube.com/channel/UCTblLpAk1fUXwWiMm3-u6wQ'>
+                <Image id='youtube-logo' src={YouTube} alt='YouTube logo' />
+              </a>
+              {'  '}
+              and subscribe to our channel!
+            </p>
+          </Col>
         </Row>
       </Container>
     </Fragment>
-  );
-};
+  )
+}
 
-export default Events;
+export default Events

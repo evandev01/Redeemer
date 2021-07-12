@@ -17,14 +17,124 @@
   max-width: 800px;
 }
 
-#byg {
-  width: 100%;
-  height: auto;
-  max-width: 800px;
+@media only screen and (max-width: 767px) {
+  #youtube-logo {
+    width: 10%;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 767px) {
+  #youtube-logo {
+    width: 15%;
+    height: auto;
+  }
 }
 
-#watch {
-  width: 100%;
-  height: auto;
-  max-width: 800px;
+@media only screen and (max-width: 767px) {
+  #watch {
+    width: 25%;
+    height: auto;
+    max-width: 800px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #watch {
+    width: 35%;
+    height: auto;
+    max-width: 800px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #byg {
+    width: 70%;
+    height: auto;
+    max-width: 800px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #byg {
+    width: 70%;
+    height: auto;
+    max-width: 800px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  #joel {
+    height: 800px;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 1365px) {
+  #joel {
+    height: 600px;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  #joel {
+    height: 400px;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 575px) {
+  #joel {
+    height: 350px;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 414px) {
+  #joel {
+    height: 300px;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #joel {
+    height: 210px;
+    width: auto;
+  }
+}
+
+h1 {
+  font-family: Copperplate, 'Copperplate Gothic Light';
+  font-size: 2.5vw;
+  font-weight: 500;
+  /* font-weight: bolder; */
+}
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-family: Copperplate, 'Copperplate Gothic Light';
+    font-size: 2.5vw;
+    font-weight: 600;
+    /* font-weight: bolder; */
+  }
+}
+
+#join-us {
+  font-family: Copperplate, 'Copperplate Gothic Light';
+  font-size: 2vw;
+  font-weight: 600;
+}
+#stream-h6 {
+  font-family: Copperplate, 'Copperplate Gothic Light';
+  font-size: 2.5vw;
+  font-weight: 600;
+}
+#byg-h6 {
+  font-family: Copperplate, 'Copperplate Gothic Light';
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+#current-wk {
+  font-family: Copperplate, 'Copperplate Gothic Light';
+  font-size: 1.7vw;
+  font-weight: 600;
+}
+#hebrew {
+  font-family: Arial, 'Arial Hebrew Scholar';
+  font-size: 1.7vw;
+  font-weight: 400;
 }
