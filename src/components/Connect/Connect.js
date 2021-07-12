@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
-import { Container, Jumbotron, Row, Image, Col } from 'react-bootstrap';
-import './style.css';
+import React, { Fragment } from 'react'
+import { Link } from 'react-router-dom'
+import { Container, Jumbotron, Row, Image, Col } from 'react-bootstrap'
+import './style.css'
 
-import logo from '../../assets/logo-assets/red_logo01.png';
+import logo from '../../assets/logo-assets/red_logo01.png'
 
 const Connect = () => {
   return (
@@ -36,14 +36,17 @@ const Connect = () => {
                 <br />
                 Phone: (219) 345-5725
                 <br />
-                Email: <Link>redeemerchurch.life@gmail.com</Link>
+                Email:{' '}
+                <a href={`mailto:redeemerchurch.life@gmail.com`}>
+                  redeemerchurch.life@gmail.com
+                </a>
               </p>
             </Col>
           </Row>
         </Jumbotron>
       </Container>
     </Fragment>
-  );
-};
+  )
+}
 
-export default Connect;
+export default Connect
