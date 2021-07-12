@@ -23,22 +23,25 @@ const Events = () => {
             />
           </Col>
           <Col lg={8} md={12} className='justify-content-center'>
-            <h6 id='byg-h6-e' className='text-center'>
+            <h6 id='byg-h6-events' className='text-center'>
               Behold Your God Bible Study
             </h6>
-            <p id='current-wk-e' className='text-center'>
+            <p id='current-wk' className='text-center'>
               Current Week: 6
             </p>
-            <p id='hebrew-p' className='text-left mr-5'>
+            <p id='hebrew' className='text-left mr-5 ml-2'>
               Behold Your God is a 12-week study for churches, small groups,
               families or individuals containing 12 sessions that are reinforced
-              by a 12-week daily workbook. Each week's lesson is preceded by a
-              brief historical profile of a notable man or woman of God such as
-              George Muller, A. W. Tozer, Samuel Rutherford, Charles Spurgeon,
-              Martyn Lloyd-Jones, Amy Carmichael, Robert Murray M'Cheyne, George
-              Whitefield, Daniel Rowland and Jonathan Edwards. The heart of each
-              DVD is a 30-minute lesson on one aspect of the Christian life and
-              how it is affected by a biblical rethinking of God's character.
+              by a 12-week daily workbook. <br />
+              Each week's lesson is preceded by a brief historical profile of a
+              notable man or woman of God such as George Muller, A. W. Tozer,
+              Samuel Rutherford, Charles Spurgeon, Martyn Lloyd-Jones, Amy
+              Carmichael, Robert Murray M'Cheyne, George Whitefield, Daniel
+              Rowland and Jonathan Edwards. <br />
+              The heart of each DVD is a 30-minute lesson on one aspect of the
+              Christian life and how it is affected by a biblical rethinking of
+              God's character.
+              <br />
               The teaching sessions are led by Dr. John Snyder, pastor of Christ
               Church in New Albany, Mississippi.
             </p>
