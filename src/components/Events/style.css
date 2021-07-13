@@ -18,8 +18,24 @@
   }
 }
 
-#home-border {
-  border-top: 1px solid black;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+@media only screen and (max-width: 767px) {
+  #bonfire-events {
+    width: 50%;
+    height: auto;
+    max-width: 800px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #bonfire-events {
+    width: 60%;
+    height: auto;
+    max-width: 800px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #bonfire-events {
+    width: 50%;
+    height: auto;
+    max-width: 800px;
+  }
 }

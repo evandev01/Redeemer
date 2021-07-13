@@ -4,6 +4,12 @@ body {
   background-color: white;
 }
 
+#home-border {
+  border-top: 1px solid rgb(160, 160, 160);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 #light-header {
   position: relative;
   margin-bottom: -5%;
@@ -34,7 +40,7 @@ body {
 @media only screen and (min-width: 768px) {
   p {
     font-family: Arial, 'Arial Hebrew Scholar';
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-weight: 500;
   }
 }
@@ -63,26 +69,62 @@ body {
 @media only screen and (min-width: 1024px) {
   h2 {
     font-family: Copperplate, 'Copperplate Gothic Light';
+    font-size: 1.9vw;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (min-width: 50px) {
+  h4 {
+    font-family: Copperplate, 'Copperplate Gothic Light';
+    font-size: 3.5vw;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width: 768px) {
+  h4 {
+    font-family: Copperplate, 'Copperplate Gothic Light';
+    font-size: 2vw;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width: 992px) {
+  h4 {
+    font-family: Copperplate, 'Copperplate Gothic Light';
+    font-size: 2vw;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  h4 {
+    font-family: Copperplate, 'Copperplate Gothic Light';
     font-size: 1.5vw;
     font-weight: 600;
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 50px) {
   h4 {
     font-family: Copperplate, 'Copperplate Gothic Light';
-    font-size: 3vw;
+    font-size: 3.5vw;
     font-weight: 600;
   }
 }
 @media only screen and (min-width: 768px) {
   h4 {
     font-family: Copperplate, 'Copperplate Gothic Light';
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-weight: 600;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 992px) {
+  h4 {
+    font-family: Copperplate, 'Copperplate Gothic Light';
+    font-size: 2vw;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width: 1200px) {
   h4 {
     font-family: Copperplate, 'Copperplate Gothic Light';
     font-size: 1.5vw;
@@ -122,7 +164,7 @@ body {
 /* BYG ============*/
 @media only screen and (max-width: 767px) {
   #byg {
-    width: 70%;
+    width: 40%;
     height: auto;
     max-width: 800px;
   }
@@ -162,12 +204,6 @@ body {
     height: auto;
     max-width: 800px;
   }
-}
-
-#bonfire-home {
-  width: 40%;
-  height: auto;
-  max-width: 800px;
 }
 
 /* JOEL ========== */

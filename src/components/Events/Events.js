@@ -13,33 +13,33 @@ const Events = () => {
   return (
     <Fragment>
       <Container id='events-body'>
-        <Row className='text-center mt-5 ml-5'>
-          <Col sm={12} md={6} sm={6} xs={5} className='text-center'>
+        <Row className='text-center mt-5'>
+          {/* <Col md={1} /> */}
+          <Col md={6}>
             <Image
-              id='bonfire'
+              id='bonfire-events'
               src={Bonfire}
               alt='Bonfire'
-              // className='py-3'
+              className='p-3'
             />
           </Col>
-          <Col sm={12} md={6} sm={6} xs={7}>
-            <h4 className='text-left mr-5'>Redeemer Church Bonfire</h4>
-            <h6 className='text-left mr-5 mt-3'>August 2021</h6>
-            <p className='text-left mt-3 mr-5'>
+          <Col md={6} className='text-center'>
+            <h4>Redeemer Church Bonfire</h4>
+            <h6>August 2021</h6>
+            <p className='text-center'>
               August's Redeemer Church Bonfire will take place on:
-              <br />
+            </p>
+            <p className='text-center'>
               <strong>Friday, August 20th at 6:00pm</strong>
-              <br />
-              <br />
-              Location details to be announced soon!
-              <br />
-              <br />
+            </p>
+            <p>Location details to be announced soon!</p>
+            <p className='text-left'>
               "Therefore encourage one another and build each other up as you
-              are already doing."
-              <br />
+              are already doing." <br />
               (1 Thessalonians 5:11)
             </p>
           </Col>
+          {/* <Col md={1} /> */}
         </Row>
         <Row id='home-border' />
 
@@ -82,7 +82,8 @@ const Events = () => {
         <Row id='home-border' />
 
         <Row className='text-center'>
-          <Col sm={12} md={6} sm={6} xs={5}>
+          <Col md={1} />
+          <Col md={5}>
             <Image
               id='watch'
               src={Watch}
@@ -91,9 +92,9 @@ const Events = () => {
             />
           </Col>
 
-          <Col sm={12} md={6} sm={6} xs={5} className='text-center'>
-            <h4 className='text-left mr-5 mb-5'>Sermons Streaming Live Now!</h4>
-            <p className='text-left mt-2'>
+          <Col md={5} className='text-center'>
+            <h4>Sermons Streaming Live Now!</h4>
+            <p className='mt-3'>
               Click here{' '}
               <a href='https://www.youtube.com/channel/UCTblLpAk1fUXwWiMm3-u6wQ'>
                 <Image id='youtube-logo' src={YouTube} alt='YouTube logo' />
@@ -102,6 +103,7 @@ const Events = () => {
               and subscribe to our channel!
             </p>
           </Col>
+          <Col md={1} />
         </Row>
       </Container>
     </Fragment>

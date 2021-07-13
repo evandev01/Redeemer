@@ -7,7 +7,7 @@ import Joel from '../../assets/joel/joel-img1.jpeg'
 import BYG from '../../assets/graphics/byg-img.jpg'
 import Watch from '../../assets/icons/video-icon.jpg'
 import YouTube from '../../assets/icons/youtube-logo2.png'
-import Bonfire from '../../assets/images/bonfire.jpeg'
+import Bonfire from '../../assets/images/bonfire2.jpeg'
 
 const Home = () => {
   return (
@@ -41,21 +41,17 @@ const Home = () => {
             </p>
           </Col>
         </Row>
-        <Row id='home-border' />
+        <Row id='home-border' className='pt-4' />
 
-        <Row className='mt-5'>
-          <Col md={6} sm={6} xs={6} className='text-right'>
-            <Image
-              id='bonfire-home'
-              src={Bonfire}
-              alt='Bonfire'
-              // className='py-3'
-            />
+        <Row className='mt-5' className='text-center'>
+          <Col md={1} />
+          <Col md={5}>
+            <Image className='mb-3' id='bonfire' src={Bonfire} alt='Bonfire' />
           </Col>
-          <Col md={6} sm={6} xs={6}>
-            <h4 className='text-left'>Redeemer Church Bonfire</h4>
-            <h6 className='text-left mt-3'>August 2021</h6>
-            <p className='text-left mt-3'>
+          <Col md={5} className='text-center'>
+            <h4>Redeemer Church Bonfire</h4>
+            <h6>August 2021</h6>
+            <p>
               Click{' '}
               <strong>
                 <Link to='/events'>HERE</Link>
@@ -63,25 +59,27 @@ const Home = () => {
               for more information
             </p>
           </Col>
+          <Col md={1} />
         </Row>
 
-        <Row id='home-border' />
-        <Row className='mt-5'>
-          <Col md={6} sm={6} xs={6} className='text-right'>
+        <Row id='home-border' className='pt-4' />
+        <Row className='text-center mt-5'>
+          <Col md={1} />
+          <Col md={5}>
             <Image
+              className='mb-3'
               id='byg'
               src={BYG}
               alt='Behold Your God Bible Study'
-              className='ml-5'
             />
           </Col>
-          <Col md={6} sm={6} xs={6}>
-            <h4 className='text-left'>Behold Your God Bible Study</h4>
-            <p className='text-left mt-3'>
+          <Col md={5}>
+            <h4>Behold Your God Bible Study</h4>
+            <p>
               Current Week: <strong>6</strong>
             </p>
             <br />
-            <p className='text-left'>
+            <p>
               Click{' '}
               <Link to='/events' style={{ fontWeight: '600' }}>
                 HERE
@@ -89,18 +87,25 @@ const Home = () => {
               for more information
             </p>
           </Col>
+          <Col md={1} />
         </Row>
 
-        <Row id='home-border' />
+        <Row id='home-border' className='pt-4' />
 
-        <Row className='mt-5'>
-          <Col md={6} sm={6} xs={6} className='text-right'>
-            <Image id='watch' src={Watch} alt='Watch live sermons' />
+        <Row className='text-center mt-5'>
+          <Col md={1} />
+          <Col md={5}>
+            <Image
+              className='mb-3'
+              id='watch'
+              src={Watch}
+              alt='Watch live sermons'
+            />
           </Col>
 
-          <Col md={6} sm={6} xs={6} className='text-left'>
-            <h4 className='text-left mb-3'>Sermons Streaming Live Now!</h4>
-            <p className='text-left'>
+          <Col md={5}>
+            <h4 className='mb-3'>Sermons Streaming Live Now!</h4>
+            <p>
               Click here{' '}
               <a href='https://www.youtube.com/channel/UCTblLpAk1fUXwWiMm3-u6wQ'>
                 <Image id='youtube-logo' src={YouTube} alt='YouTube logo' />
@@ -109,9 +114,10 @@ const Home = () => {
               and subscribe to our channel!
             </p>
           </Col>
+          <Col md={1} />
         </Row>
 
-        <Row id='home-border' />
+        <Row id='home-border' className='pt-4' />
       </Container>
     </Fragment>
   )
