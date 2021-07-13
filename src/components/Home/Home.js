@@ -19,7 +19,7 @@ const Home = () => {
           </Col>
         </Row>
         <Row className='text-center'>
-          <Col sm={12} md={6} className='text-center'>
+          <Col md={6} className='text-center'>
             <Image id='joel' src={Joel} className='ml-3'></Image>
           </Col>
           <Col>
@@ -43,8 +43,8 @@ const Home = () => {
         </Row>
         <Row id='home-border' />
 
-        <Row className='text-center mt-5 ml-5'>
-          <Col sm={12} md={6} sm={6} xs={5} className='text-center'>
+        <Row className='mt-5'>
+          <Col md={6} sm={6} xs={6} className='text-right'>
             <Image
               id='bonfire-home'
               src={Bonfire}
@@ -52,10 +52,10 @@ const Home = () => {
               // className='py-3'
             />
           </Col>
-          <Col sm={12} md={6} sm={6} xs={7}>
-            <h4 className='text-left mr-5'>Redeemer Church Bonfire</h4>
-            <h6 className='text-left mr-5 mt-3'>August 2021</h6>
-            <p className='text-left mt-3 mr-5'>
+          <Col md={6} sm={6} xs={6}>
+            <h4 className='text-left'>Redeemer Church Bonfire</h4>
+            <h6 className='text-left mt-3'>August 2021</h6>
+            <p className='text-left mt-3'>
               Click{' '}
               <strong>
                 <Link to='/events'>HERE</Link>
@@ -66,8 +66,8 @@ const Home = () => {
         </Row>
 
         <Row id='home-border' />
-        <Row className='text-center mt-5 ml-5'>
-          <Col sm={12} md={6} sm={6} xs={5} className='text-left'>
+        <Row className='mt-5'>
+          <Col md={6} sm={6} xs={6} className='text-right'>
             <Image
               id='byg'
               src={BYG}
@@ -75,13 +75,13 @@ const Home = () => {
               className='ml-5'
             />
           </Col>
-          <Col sm={12} md={6} sm={6} xs={7}>
-            <h4 className='text-left mr-5'>Behold Your God Bible Study</h4>
-            <p className='text-left mt-3 mr-5'>
+          <Col md={6} sm={6} xs={6}>
+            <h4 className='text-left'>Behold Your God Bible Study</h4>
+            <p className='text-left mt-3'>
               Current Week: <strong>6</strong>
             </p>
             <br />
-            <p className='text-left mr-5'>
+            <p className='text-left'>
               Click{' '}
               <Link to='/events' style={{ fontWeight: '600' }}>
                 HERE
@@ -93,19 +93,14 @@ const Home = () => {
 
         <Row id='home-border' />
 
-        <Row className='text-center'>
-          <Col sm={12} md={6} sm={6} xs={5}>
-            <Image
-              id='watch'
-              src={Watch}
-              alt='Watch live sermons'
-              // className='ml-2'
-            />
+        <Row className='mt-5'>
+          <Col md={6} sm={6} xs={6} className='text-right'>
+            <Image id='watch' src={Watch} alt='Watch live sermons' />
           </Col>
 
-          <Col sm={12} md={6} sm={6} xs={5} className='text-center'>
-            <h4 className='text-left mr-5 mb-5'>Sermons Streaming Live Now!</h4>
-            <p className='text-left mt-2'>
+          <Col md={6} sm={6} xs={6} className='text-left'>
+            <h4 className='text-left mb-3'>Sermons Streaming Live Now!</h4>
+            <p className='text-left'>
               Click here{' '}
               <a href='https://www.youtube.com/channel/UCTblLpAk1fUXwWiMm3-u6wQ'>
                 <Image id='youtube-logo' src={YouTube} alt='YouTube logo' />
