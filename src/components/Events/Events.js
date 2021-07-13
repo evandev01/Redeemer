@@ -14,18 +14,18 @@ const Events = () => {
     <Fragment>
       <Container id='events-body'>
         <Row className='text-center mt-5'>
-          {/* <Col md={1} /> */}
-          <Col md={6}>
+          <Col md={1} />
+          <Col md={5}>
             <Image
               id='bonfire-events'
               src={Bonfire}
               alt='Bonfire'
-              className='p-3'
+              className='text-left p-3'
             />
           </Col>
-          <Col md={6} className='text-center'>
-            <h4>Redeemer Church Bonfire</h4>
-            <h6>August 2021</h6>
+          <Col md={5}>
+            <h4 className='text-center'>Redeemer Church Bonfire</h4>
+            <h6 className='text-center'>August 2021</h6>
             <p className='text-center'>
               August's Redeemer Church Bonfire will take place on:
             </p>
@@ -39,7 +39,7 @@ const Events = () => {
               (1 Thessalonians 5:11)
             </p>
           </Col>
-          {/* <Col md={1} /> */}
+          <Col md={1} />
         </Row>
         <Row id='home-border' />
 
@@ -58,7 +58,7 @@ const Events = () => {
               Behold Your God Bible Study
             </h6>
             <p id='current-wk' className='text-center'>
-              Current Week: 6
+              Current Week: <strong>6</strong>
             </p>
             <p id='hebrew' className='text-left mr-5 ml-2'>
               Behold Your God is a 12-week study for churches, small groups,
