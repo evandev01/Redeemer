@@ -76,6 +76,13 @@ h4 {
     font-weight: 600;
   }
 }
+@media only screen and (min-width: 1024px) {
+  h4 {
+    font-family: Copperplate, 'Copperplate Gothic Light';
+    font-size: 1.8vw;
+    font-weight: 600;
+  }
+}
 
 h5 {
   font-family: Copperplate, 'Copperplate Gothic Light';
@@ -83,22 +90,22 @@ h5 {
   font-weight: 600;
 }
 
-h6 {
+/* h6 {
   font-family: Copperplate, 'Copperplate Gothic Light';
-  font-size: 1.5vw;
+  font-size: 1.4vw;
   font-weight: 600;
-}
+} */
 @media only screen and (max-width: 1023px) {
   h6 {
     font-family: Copperplate, 'Copperplate Gothic Light';
-    font-size: 2.2vw;
+    font-size: 2vw;
     font-weight: 600;
   }
 }
 @media only screen and (min-width: 1024px) {
   h6 {
     font-family: Copperplate, 'Copperplate Gothic Light';
-    font-size: 1.8vw;
+    font-size: 1.5vw;
     font-weight: 600;
   }
 }
@@ -114,17 +121,45 @@ h6 {
 }
 @media only screen and (min-width: 768px) {
   #byg {
-    width: 80%;
+    width: 50%;
     height: auto;
     max-width: 800px;
   }
 }
 @media only screen and (min-width: 992px) {
   #byg {
+    width: 45%;
+    height: auto;
+    max-width: 800px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #bonfire {
+    width: 70%;
+    height: auto;
+    max-width: 800px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #bonfire {
     width: 60%;
     height: auto;
     max-width: 800px;
   }
+}
+@media only screen and (min-width: 992px) {
+  #bonfire {
+    width: 50%;
+    height: auto;
+    max-width: 800px;
+  }
+}
+
+#bonfire-home {
+  width: 40%;
+  height: auto;
+  max-width: 800px;
 }
 
 /* JOEL ========== */
@@ -180,14 +215,14 @@ h6 {
 
 @media only screen and (max-width: 767px) {
   #watch {
-    width: 70%;
+    width: 50%;
     height: auto;
     max-width: 800px;
   }
 }
 @media only screen and (min-width: 768px) {
   #watch {
-    width: 80%;
+    width: 50%;
     height: auto;
     max-width: 800px;
   }

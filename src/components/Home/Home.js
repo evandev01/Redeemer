@@ -7,6 +7,7 @@ import Joel from '../../assets/joel/joel-img1.jpeg'
 import BYG from '../../assets/graphics/byg-img.jpg'
 import Watch from '../../assets/icons/video-icon.jpg'
 import YouTube from '../../assets/icons/youtube-logo2.png'
+import Bonfire from '../../assets/images/bonfire.jpeg'
 
 const Home = () => {
   return (
@@ -27,7 +28,7 @@ const Home = () => {
               earth and every tongue will confess that Jesus Christ is Lord, to
               the glory of God the Father."
               <br />
-              (Phillippians 2:10)"
+              (Phillippians 2:10)
             </p>
             <h6 className=' text-left mt-5 ml-1'>Join us for service!</h6>
             <p id='hebrew-home' className='text-left mt-3 ml-1'>
@@ -40,6 +41,29 @@ const Home = () => {
             </p>
           </Col>
         </Row>
+        <Row id='home-border' />
+
+        <Row className='text-center mt-5 ml-5'>
+          <Col sm={12} md={6} sm={6} xs={5} className='text-center'>
+            <Image
+              id='bonfire-home'
+              src={Bonfire}
+              alt='Bonfire'
+              // className='py-3'
+            />
+          </Col>
+          <Col sm={12} md={6} sm={6} xs={7}>
+            <h4 className='text-left mr-5'>Redeemer Church Bonfire</h4>
+            <h6 className='text-left mr-5 mt-3'>August 2021</h6>
+            <p className='text-left mt-3 mr-5'>
+              Click{' '}
+              <strong>
+                <Link to='/events'>HERE</Link>
+              </strong>{' '}
+              for more information
+            </p>
+          </Col>
+        </Row>
 
         <Row id='home-border' />
         <Row className='text-center mt-5 ml-5'>
@@ -48,7 +72,7 @@ const Home = () => {
               id='byg'
               src={BYG}
               alt='Behold Your God Bible Study'
-              // className='py-3'
+              className='ml-5'
             />
           </Col>
           <Col sm={12} md={6} sm={6} xs={7}>
@@ -75,7 +99,7 @@ const Home = () => {
               id='watch'
               src={Watch}
               alt='Watch live sermons'
-              className='ml-3'
+              // className='ml-2'
             />
           </Col>
 
