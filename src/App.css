@@ -10,3 +10,185 @@ body {
   width: 100%;
   height: auto;
 }
+
+#home-body {
+  margin-top: 2rem;
+  max-height: cover;
+}
+
+body {
+  color: rgb(78, 78, 78);
+}
+
+#copper {
+  font-family: Copperplate, 'Copperplate Gothic Light';
+}
+
+p {
+  font-family: Arial, 'Arial Hebrew Scholar';
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+@media only screen and (max-width: 1023px) {
+  p {
+    font-family: Arial, 'Arial Hebrew Scholar';
+    font-size: 2vw;
+    font-weight: 500;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  p {
+    font-family: Arial, 'Arial Hebrew Scholar';
+    font-size: 1.5vw;
+    font-weight: 500;
+  }
+}
+
+h2 {
+  font-family: Copperplate, 'Copperplate Gothic Light';
+  font-size: 1.9vw;
+  font-weight: 600;
+}
+@media only screen and (max-width: 991px) {
+  h2 {
+    font-family: Copperplate, 'Copperplate Gothic Light';
+    font-size: 2.2vw;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  h2 {
+    font-family: Copperplate, 'Copperplate Gothic Light';
+    font-size: 2vw;
+    font-weight: 600;
+  }
+}
+
+h4 {
+  font-family: Copperplate, 'Copperplate Gothic Light';
+  font-size: 1.6vw;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1023px) {
+  h4 {
+    font-family: Copperplate, 'Copperplate Gothic Light';
+    font-size: 2.2vw;
+    font-weight: 600;
+  }
+}
+
+h5 {
+  font-family: Copperplate, 'Copperplate Gothic Light';
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+h6 {
+  font-family: Copperplate, 'Copperplate Gothic Light';
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+@media only screen and (max-width: 1023px) {
+  h6 {
+    font-family: Copperplate, 'Copperplate Gothic Light';
+    font-size: 2.2vw;
+    font-weight: 600;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  h6 {
+    font-family: Copperplate, 'Copperplate Gothic Light';
+    font-size: 1.8vw;
+    font-weight: 600;
+  }
+}
+
+/* MAIN IMAGES */
+/* BYG ============*/
+@media only screen and (max-width: 767px) {
+  #byg {
+    width: 70%;
+    height: auto;
+    max-width: 800px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #byg {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  #byg {
+    width: 60%;
+    height: auto;
+    max-width: 800px;
+  }
+}
+
+/* JOEL ========== */
+@media only screen and (min-width: 1366px) {
+  #joel {
+    height: 600px;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 1365px) {
+  #joel {
+    height: 500px;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  #joel {
+    height: 400px;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 575px) {
+  #joel {
+    height: 350px;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 414px) {
+  #joel {
+    height: 300px;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 375px) {
+  #joel {
+    height: 210px;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #youtube-logo {
+    width: 20%;
+    height: auto;
+  }
+}
+@media only screen and (min-width: 767px) {
+  #youtube-logo {
+    width: 25%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #watch {
+    width: 70%;
+    height: auto;
+    max-width: 800px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #watch {
+    width: 80%;
+    height: auto;
+    max-width: 800px;
+  }
+}

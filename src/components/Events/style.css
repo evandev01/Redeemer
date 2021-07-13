@@ -3,13 +3,6 @@
   margin-bottom: 4rem;
 }
 
-/* @media only screen and (max-width: 991px) {
-  #byg-events {
-    width: 40%;
-    height: auto;
-    max-width: 800px;
-  }
-} */
 @media only screen and (max-width: 991px) {
   #byg-events {
     width: 30%;
@@ -29,33 +22,4 @@
   border-top: 1px solid black;
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-#byg-h6-events {
-  font-family: Copperplate, 'Copperplate Gothic Light';
-  font-size: 1.5vw;
-  font-weight: 600;
-}
-/* #current-wk-events {
-  font-family: Copperplate, 'Copperplate Gothic Light';
-  font-size: 1.1vw;
-  font-weight: 600;
-} */
-
-/* #hebrew-events {
-  margin-left: 2rem;
-  font-family: Arial, 'Arial Hebrew Scholar';
-  font-size: 1.3vw;
-  font-weight: 400;
-} */
-
-#watch-live-events {
-  width: 100%;
-  height: auto;
-  max-width: 800px;
-}
-#hebrew-w {
-  font-family: Arial, 'Arial Hebrew Scholar';
-  font-size: 1.8vw;
-  font-weight: 400;
 }

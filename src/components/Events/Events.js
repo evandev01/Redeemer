@@ -50,23 +50,20 @@ const Events = () => {
 
         <Row id='home-border' />
 
-        <Row className='justify-content-md-center'>
-          <Col className='text-center'>
-            <h4 id='stream-h6' className='text-center'>
-              Sermons Streaming Live Now!
-            </h4>
+        <Row className='text-center'>
+          <Col sm={12} md={6} sm={6} xs={5}>
             <Image
               id='watch'
               src={Watch}
               alt='Watch live sermons'
-              className='mt-3'
+              className='ml-3'
             />
           </Col>
-        </Row>
-        <Row>
-          <Col>
-            <p id='current-wk' className='text-center mt-3'>
-              Click here{'  '}
+
+          <Col sm={12} md={6} sm={6} xs={5} className='text-center'>
+            <h4 className='text-left mr-5 mb-5'>Sermons Streaming Live Now!</h4>
+            <p className='text-left mt-2'>
+              Click here{' '}
               <a href='https://www.youtube.com/channel/UCTblLpAk1fUXwWiMm3-u6wQ'>
                 <Image id='youtube-logo' src={YouTube} alt='YouTube logo' />
               </a>
