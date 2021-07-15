@@ -66,7 +66,7 @@ const Events = () => {
               Behold Your God Bible Study
             </h6>
             <p id='current-wk' className='text-center'>
-              Current Week: <strong>6</strong>
+              Current Week: <strong>7</strong>
             </p>
             <p id='hebrew' className='text-left mr-5 ml-2'>
               Behold Your God is a 12-week study for churches, small groups,

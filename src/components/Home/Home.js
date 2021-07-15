@@ -76,7 +76,7 @@ const Home = () => {
           <Col md={5}>
             <h4>Behold Your God Bible Study</h4>
             <p>
-              Current Week: <strong>6</strong>
+              Current Week: <strong>7</strong>
             </p>
             <br />
             <p>
