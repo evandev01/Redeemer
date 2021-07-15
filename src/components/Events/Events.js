@@ -32,7 +32,15 @@ const Events = () => {
             <p className='text-center'>
               <strong>Friday, August 20th at 6:00pm</strong>
             </p>
-            <p>Location details to be announced soon!</p>
+            <p>Our gracious hosts are Jim and Jen Nelms</p>
+            <p>
+              For location details please call: <br />
+              <strong>(219)345-5725</strong>
+            </p>
+            <p className='text-left'>
+              We look forward to gathering as a church family, and may{' '}
+              <strong>Christ</strong> be glorified!
+            </p>
             <p className='text-left'>
               "Therefore encourage one another and build each other up as you
               are already doing." <br />
